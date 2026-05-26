@@ -1,0 +1,35 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.toc
+*.lof
+*.lot
+*.run.xml
+*.bcf
+*.nav
+*.snm
+*.vrb
+*.abs
+*.xmpdata
+pdfa.xmpi
+
+# Generated PDF (uncomment to track)
+# *.pdf
+
+# Source PDFs (kept locally, not tracked)
+sources/**/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~

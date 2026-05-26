@@ -1,0 +1,2691 @@
+[
+  {
+    "arxiv_id": "2310.08560",
+    "title": "MemGPT: Towards LLMs as Operating Systems",
+    "authors": [
+      "Charles Packer",
+      "Sarah Wooders",
+      "Kevin Lin",
+      "Vivian Fang",
+      "Shishir G. Patil",
+      "Ion Stoica",
+      "Joseph E. Gonzalez"
+    ],
+    "published": "2023-10-12",
+    "updated": "2024-02-12",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Large language models (LLMs) have revolutionized AI, but are constrained by limited context windows, hindering their utility in tasks like extended conversations and document analysis. To enable using context beyond limited context windows, we propose virtual context management, a technique drawing inspiration from hierarchical memory systems in traditional operating systems that provide the appearance of large memory resources through data movement between fast and slow memory. Using this techn",
+    "pdf_url": "https://arxiv.org/pdf/2310.08560v2"
+  },
+  {
+    "arxiv_id": "2108.00573",
+    "title": "MuSiQue: Multihop Questions via Single-hop Question Composition",
+    "authors": [
+      "Harsh Trivedi",
+      "Niranjan Balasubramanian",
+      "Tushar Khot",
+      "Ashish Sabharwal"
+    ],
+    "published": "2021-08-02",
+    "updated": "2022-05-05",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Multihop reasoning remains an elusive goal as existing multihop benchmarks are known to be largely solvable via shortcuts. Can we create a question answering (QA) dataset that, by construction, \\emph{requires} proper multihop reasoning? To this end, we introduce a bottom-up approach that systematically selects composable pairs of single-hop questions that are connected, i.e., where one reasoning step critically relies on information from another. This bottom-up methodology lets us explore a vast",
+    "pdf_url": "https://arxiv.org/pdf/2108.00573v3"
+  },
+  {
+    "arxiv_id": "2107.07567",
+    "title": "Beyond Goldfish Memory: Long-Term Open-Domain Conversation",
+    "authors": [
+      "Jing Xu",
+      "Arthur Szlam",
+      "Jason Weston"
+    ],
+    "published": "2021-07-15",
+    "updated": "2021-07-15",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Despite recent improvements in open-domain dialogue models, state of the art models are trained and evaluated on short conversations with little context. In contrast, the long-term conversation setting has hardly been studied. In this work we collect and release a human-human dataset consisting of multiple chat sessions whereby the speaking partners learn about each other's interests and discuss the things they have learnt from past sessions. We show how existing models trained on existing datas",
+    "pdf_url": "https://arxiv.org/pdf/2107.07567v1"
+  },
+  {
+    "arxiv_id": "2408.03615",
+    "title": "Optimus-1: Hybrid Multimodal Memory Empowered Agents Excel in Long-Horizon Tasks",
+    "authors": [
+      "Zaijing Li",
+      "Yuquan Xie",
+      "Rui Shao",
+      "Gongwei Chen",
+      "Dongmei Jiang",
+      "Liqiang Nie"
+    ],
+    "published": "2024-08-07",
+    "updated": "2024-10-21",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Building a general-purpose agent is a long-standing vision in the field of artificial intelligence. Existing agents have made remarkable progress in many domains, yet they still struggle to complete long-horizon tasks in an open world. We attribute this to the lack of necessary world knowledge and multimodal experience that can guide agents through a variety of long-horizon tasks. In this paper, we propose a Hybrid Multimodal Memory module to address the above challenges. It 1) transforms knowle",
+    "pdf_url": "https://arxiv.org/pdf/2408.03615v2"
+  },
+  {
+    "arxiv_id": "2308.10144",
+    "title": "ExpeL: LLM Agents Are Experiential Learners",
+    "authors": [
+      "Andrew Zhao",
+      "Daniel Huang",
+      "Quentin Xu",
+      "Matthieu Lin",
+      "Yong-Jin Liu",
+      "Gao Huang"
+    ],
+    "published": "2023-08-20",
+    "updated": "2024-12-20",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "The recent surge in research interest in applying large language models (LLMs) to decision-making tasks has flourished by leveraging the extensive world knowledge embedded in LLMs. While there is a growing demand to tailor LLMs for custom decision-making tasks, finetuning them for specific tasks is resource-intensive and may diminish the model's generalization capabilities. Moreover, state-of-the-art language models like GPT-4 and Claude are primarily accessible through API calls, with their par",
+    "pdf_url": "https://arxiv.org/pdf/2308.10144v3"
+  },
+  {
+    "arxiv_id": "2401.13178",
+    "title": "AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents",
+    "authors": [
+      "Chang Ma",
+      "Junlei Zhang",
+      "Zhihao Zhu",
+      "Cheng Yang",
+      "Yujiu Yang",
+      "Yaohui Jin",
+      "Zhenzhong Lan",
+      "Lingpeng Kong",
+      "Junxian He"
+    ],
+    "published": "2024-01-24",
+    "updated": "2024-12-23",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Evaluating Large Language Models (LLMs) as general-purpose agents is essential for understanding their capabilities and facilitating their integration into practical applications. However, the evaluation process presents substantial challenges. A primary obstacle is the benchmarking of agent performance across diverse scenarios within a unified framework, especially in maintaining partially-observable environments and ensuring multi-round interactions. Moreover, current evaluation frameworks mos",
+    "pdf_url": "https://arxiv.org/pdf/2401.13178v2"
+  },
+  {
+    "arxiv_id": "2406.04151",
+    "title": "AgentGym: Evolving Large Language Model-based Agents across Diverse Environments",
+    "authors": [
+      "Zhiheng Xi",
+      "Yiwen Ding",
+      "Wenxiang Chen",
+      "Boyang Hong",
+      "Honglin Guo",
+      "Junzhe Wang",
+      "Dingwen Yang",
+      "Chenyang Liao",
+      "Xin Guo",
+      "Wei He",
+      "Songyang Gao",
+      "Lu Chen",
+      "Rui Zheng",
+      "Yicheng Zou",
+      "Tao Gui",
+      "Qi Zhang",
+      "Xipeng Qiu",
+      "Xuanjing Huang",
+      "Zuxuan Wu",
+      "Yu-Gang Jiang"
+    ],
+    "published": "2024-06-06",
+    "updated": "2024-06-06",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Building generalist agents that can handle diverse tasks and evolve themselves across different environments is a long-term goal in the AI community. Large language models (LLMs) are considered a promising foundation to build such agents due to their generalized capabilities. Current approaches either have LLM-based agents imitate expert-provided trajectories step-by-step, requiring human supervision, which is hard to scale and limits environmental exploration; or they let agents explore and lea",
+    "pdf_url": "https://arxiv.org/pdf/2406.04151v1"
+  },
+  {
+    "arxiv_id": "2502.01630",
+    "title": "TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues",
+    "authors": [
+      "Yubin Ge",
+      "Salvatore Romeo",
+      "Jason Cai",
+      "Raphael Shu",
+      "Monica Sunkara",
+      "Yassine Benajiba",
+      "Yi Zhang"
+    ],
+    "published": "2025-02-03",
+    "updated": "2025-09-24",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Temporal reasoning in multi-session dialogues presents a significant challenge which has been under-studied in previous temporal reasoning benchmarks. To bridge this gap, we propose a new evaluation task for temporal reasoning in multi-session dialogues and introduce an approach to construct a new benchmark by augmenting dialogues from LoCoMo and creating multi-choice QAs. Furthermore, we present TReMu, a new framework aimed at enhancing the temporal reasoning capabilities of LLM-agents in this ",
+    "pdf_url": "https://arxiv.org/pdf/2502.01630v2"
+  },
+  {
+    "arxiv_id": "2404.09992",
+    "title": "MMInA: Benchmarking Multihop Multimodal Internet Agents",
+    "authors": [
+      "Shulin Tian",
+      "Ziniu Zhang",
+      "Liangyu Chen",
+      "Ziwei Liu"
+    ],
+    "published": "2024-04-15",
+    "updated": "2025-06-29",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Autonomous embodied agents live on an Internet of multimedia websites. Can they hop around multimodal websites to complete complex user tasks? Existing benchmarks fail to assess them in a realistic, evolving environment for their embodiment across websites. To answer this question, we present MMInA, a multihop and multimodal benchmark to evaluate the embodied agents for compositional Internet tasks, with several appealing properties: 1) Evolving real-world multimodal websites. Our benchmark uniq",
+    "pdf_url": "https://arxiv.org/pdf/2404.09992v2"
+  },
+  {
+    "arxiv_id": "2406.11230",
+    "title": "Multimodal Needle in a Haystack: Benchmarking Long-Context Capability of Multimodal Large Language Models",
+    "authors": [
+      "Hengyi Wang",
+      "Haizhou Shi",
+      "Shiwei Tan",
+      "Weiyi Qin",
+      "Wenyuan Wang",
+      "Tunyu Zhang",
+      "Akshay Nambi",
+      "Tanuja Ganu",
+      "Hao Wang"
+    ],
+    "published": "2024-06-17",
+    "updated": "2025-02-11",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "abstract": "Multimodal Large Language Models (MLLMs) have shown significant promise in various applications, leading to broad interest from researchers and practitioners alike. However, a comprehensive evaluation of their long-context capabilities remains underexplored. To address these gaps, we introduce the MultiModal Needle-in-a-haystack (MMNeedle) benchmark, specifically designed to assess the long-context capabilities of MLLMs. Besides multi-image input, we employ image stitching to further increase th",
+    "pdf_url": "https://arxiv.org/pdf/2406.11230v2"
+  },
+  {
+    "arxiv_id": "2410.10813",
+    "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+    "authors": [
+      "Di Wu",
+      "Hongwei Wang",
+      "Wenhao Yu",
+      "Yuwei Zhang",
+      "Kai-Wei Chang",
+      "Dong Yu"
+    ],
+    "published": "2024-10-14",
+    "updated": "2025-03-04",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Recent large language model (LLM)-driven chat assistant systems have integrated memory components to track user-assistant chat histories, enabling more accurate and personalized responses. However, their long-term memory capabilities in sustained interactions remain underexplored. We introduce LongMemEval, a comprehensive benchmark designed to evaluate five core long-term memory abilities of chat assistants: information extraction, multi-session reasoning, temporal reasoning, knowledge updates, ",
+    "pdf_url": "https://arxiv.org/pdf/2410.10813v2"
+  },
+  {
+    "arxiv_id": "2408.05861",
+    "title": "Temporal Knowledge-Graph Memory in a Partially Observable Environment",
+    "authors": [
+      "Taewoon Kim",
+      "Vincent Fran\u00e7ois-Lavet",
+      "Michael Cochez"
+    ],
+    "published": "2024-08-11",
+    "updated": "2026-02-25",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Agents in partially observable environments require persistent memory to integrate observations over time. While KGs (knowledge graphs) provide a natural representation for such evolving state, existing benchmarks rarely expose agents to environments where both the world dynamics and the agent's memory are explicitly graph-shaped. We introduce the Room Environment v3, a configurable environment whose hidden state is an RDF KG and whose observations are RDF triples. The agent may extend these obs",
+    "pdf_url": "https://arxiv.org/pdf/2408.05861v4"
+  },
+  {
+    "arxiv_id": "2010.03768",
+    "title": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+    "authors": [
+      "Mohit Shridhar",
+      "Xingdi Yuan",
+      "Marc-Alexandre C\u00f4t\u00e9",
+      "Yonatan Bisk",
+      "Adam Trischler",
+      "Matthew Hausknecht"
+    ],
+    "published": "2020-10-08",
+    "updated": "2021-03-14",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "abstract": "Given a simple request like Put a washed apple in the kitchen fridge, humans can reason in purely abstract terms by imagining action sequences and scoring their likelihood of success, prototypicality, and efficiency, all without moving a muscle. Once we see the kitchen in question, we can update our abstract plans to fit the scene. Embodied agents require the same abilities, but existing work does not yet provide the infrastructure necessary for both reasoning abstractly and executing concretely",
+    "pdf_url": "https://arxiv.org/pdf/2010.03768v2"
+  },
+  {
+    "arxiv_id": "1809.09600",
+    "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+    "authors": [
+      "Zhilin Yang",
+      "Peng Qi",
+      "Saizheng Zhang",
+      "Yoshua Bengio",
+      "William W. Cohen",
+      "Ruslan Salakhutdinov",
+      "Christopher D. Manning"
+    ],
+    "published": "2018-09-25",
+    "updated": "2018-09-25",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Existing question answering (QA) datasets fail to train QA systems to perform complex reasoning and provide explanations for answers. We introduce HotpotQA, a new dataset with 113k Wikipedia-based question-answer pairs with four key features: (1) the questions require finding and reasoning over multiple supporting documents to answer; (2) the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas; (3) we provide sentence-level supporting facts required",
+    "pdf_url": "https://arxiv.org/pdf/1809.09600v1"
+  },
+  {
+    "arxiv_id": "2402.15057",
+    "title": "On the Multi-turn Instruction Following for Conversational Web Agents",
+    "authors": [
+      "Yang Deng",
+      "Xuan Zhang",
+      "Wenxuan Zhang",
+      "Yifei Yuan",
+      "See-Kiong Ng",
+      "Tat-Seng Chua"
+    ],
+    "published": "2024-02-23",
+    "updated": "2024-02-23",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Web agents powered by Large Language Models (LLMs) have demonstrated remarkable abilities in planning and executing multi-step interactions within complex web-based environments, fulfilling a wide range of web navigation tasks. Despite these advancements, the potential for LLM-powered agents to effectively engage with sequential user instructions in real-world scenarios has not been fully explored. In this work, we introduce a new task of Conversational Web Navigation, which necessitates sophist",
+    "pdf_url": "https://arxiv.org/pdf/2402.15057v1"
+  },
+  {
+    "arxiv_id": "2307.16789",
+    "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+    "authors": [
+      "Yujia Qin",
+      "Shihao Liang",
+      "Yining Ye",
+      "Kunlun Zhu",
+      "Lan Yan",
+      "Yaxi Lu",
+      "Yankai Lin",
+      "Xin Cong",
+      "Xiangru Tang",
+      "Bill Qian",
+      "Sihan Zhao",
+      "Lauren Hong",
+      "Runchu Tian",
+      "Ruobing Xie",
+      "Jie Zhou",
+      "Mark Gerstein",
+      "Dahai Li",
+      "Zhiyuan Liu",
+      "Maosong Sun"
+    ],
+    "published": "2023-07-31",
+    "updated": "2023-10-03",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "abstract": "Despite the advancements of open-source large language models (LLMs), e.g., LLaMA, they remain significantly limited in tool-use capabilities, i.e., using external tools (APIs) to fulfill human instructions. The reason is that current instruction tuning largely focuses on basic language tasks but ignores the tool-use domain. This is in contrast to the excellent tool-use capabilities of state-of-the-art (SOTA) closed-source LLMs, e.g., ChatGPT. To bridge this gap, we introduce ToolLLM, a general ",
+    "pdf_url": "https://arxiv.org/pdf/2307.16789v2"
+  },
+  {
+    "arxiv_id": "2403.06041",
+    "title": "MATRIX: Multi-Agent Trajectory Generation with Diverse Contexts",
+    "authors": [
+      "Zhuo Xu",
+      "Rui Zhou",
+      "Yida Yin",
+      "Huidong Gao",
+      "Masayoshi Tomizuka",
+      "Jiachen Li"
+    ],
+    "published": "2024-03-09",
+    "updated": "2024-03-09",
+    "categories": [
+      "cs.RO",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "abstract": "Data-driven methods have great advantages in modeling complicated human behavioral dynamics and dealing with many human-robot interaction applications. However, collecting massive and annotated real-world human datasets has been a laborious task, especially for highly interactive scenarios. On the other hand, algorithmic data generation methods are usually limited by their model capacities, making them unable to offer realistic and diverse data needed by various application users. In this work, ",
+    "pdf_url": "https://arxiv.org/pdf/2403.06041v1"
+  },
+  {
+    "arxiv_id": "2207.01206",
+    "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+    "authors": [
+      "Shunyu Yao",
+      "Howard Chen",
+      "John Yang",
+      "Karthik Narasimhan"
+    ],
+    "published": "2022-07-04",
+    "updated": "2023-02-08",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Existing benchmarks for grounding language in interactive environments either lack real-world linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. To bridge this gap, we develop WebShop -- a simulated e-commerce website environment with $1.18$ million real-world products and $12,087$ crowd-sourced text instructions. Given a text instruction specifying a product requirement, an agent needs to navigate multiple type",
+    "pdf_url": "https://arxiv.org/pdf/2207.01206v4"
+  },
+  {
+    "arxiv_id": "2311.13743",
+    "title": "FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design",
+    "authors": [
+      "Yangyang Yu",
+      "Haohang Li",
+      "Zhi Chen",
+      "Yuechen Jiang",
+      "Yang Li",
+      "Denghui Zhang",
+      "Rong Liu",
+      "Jordan W. Suchow",
+      "Khaldoun Khashanah"
+    ],
+    "published": "2023-11-23",
+    "updated": "2023-12-03",
+    "categories": [
+      "q-fin.CP",
+      "cs.AI",
+      "cs.CE",
+      "cs.LG"
+    ],
+    "abstract": "Recent advancements in Large Language Models (LLMs) have exhibited notable efficacy in question-answering (QA) tasks across diverse domains. Their prowess in integrating extensive web knowledge has fueled interest in developing LLM-based autonomous agents. While LLMs are efficient in decoding human instructions and deriving solutions by holistically processing historical inputs, transitioning to purpose-driven agents requires a supplementary rational architecture to process multi-source informat",
+    "pdf_url": "https://arxiv.org/pdf/2311.13743v2"
+  },
+  {
+    "arxiv_id": "2409.19401",
+    "title": "Crafting Personalized Agents through Retrieval-Augmented Generation on Editable Memory Graphs",
+    "authors": [
+      "Zheng Wang",
+      "Zhongyang Li",
+      "Zeren Jiang",
+      "Dandan Tu",
+      "Wei Shi"
+    ],
+    "published": "2024-09-28",
+    "updated": "2024-09-28",
+    "categories": [
+      "cs.CL",
+      "cs.IR"
+    ],
+    "abstract": "In the age of mobile internet, user data, often referred to as memories, is continuously generated on personal devices. Effectively managing and utilizing this data to deliver services to users is a compelling research topic. In this paper, we introduce a novel task of crafting personalized agents powered by large language models (LLMs), which utilize a user's smartphone memories to enhance downstream applications with advanced LLM capabilities. To achieve this goal, we introduce EMG-RAG, a solu",
+    "pdf_url": "https://arxiv.org/pdf/2409.19401v1"
+  },
+  {
+    "arxiv_id": "2310.06770",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "authors": [
+      "Carlos E. Jimenez",
+      "John Yang",
+      "Alexander Wettig",
+      "Shunyu Yao",
+      "Kexin Pei",
+      "Ofir Press",
+      "Karthik Narasimhan"
+    ],
+    "published": "2023-10-10",
+    "updated": "2024-11-11",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "abstract": "Language models have outpaced our ability to evaluate them effectively, but for their future development it is essential to study the frontier of their capabilities. We find real-world software engineering to be a rich, sustainable, and challenging testbed for evaluating the next generation of language models. To this end, we introduce SWE-bench, an evaluation framework consisting of $2,294$ software engineering problems drawn from real GitHub issues and corresponding pull requests across $12$ p",
+    "pdf_url": "https://arxiv.org/pdf/2310.06770v3"
+  },
+  {
+    "arxiv_id": "2412.15204",
+    "title": "LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks",
+    "authors": [
+      "Yushi Bai",
+      "Shangqing Tu",
+      "Jiajie Zhang",
+      "Hao Peng",
+      "Xiaozhi Wang",
+      "Xin Lv",
+      "Shulin Cao",
+      "Jiazheng Xu",
+      "Lei Hou",
+      "Yuxiao Dong",
+      "Jie Tang",
+      "Juanzi Li"
+    ],
+    "published": "2024-12-19",
+    "updated": "2025-01-03",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "This paper introduces LongBench v2, a benchmark designed to assess the ability of LLMs to handle long-context problems requiring deep understanding and reasoning across real-world multitasks. LongBench v2 consists of 503 challenging multiple-choice questions, with contexts ranging from 8k to 2M words, across six major task categories: single-document QA, multi-document QA, long in-context learning, long-dialogue history understanding, code repository understanding, and long structured data under",
+    "pdf_url": "https://arxiv.org/pdf/2412.15204v2"
+  },
+  {
+    "arxiv_id": "2404.06654",
+    "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+    "authors": [
+      "Cheng-Ping Hsieh",
+      "Simeng Sun",
+      "Samuel Kriman",
+      "Shantanu Acharya",
+      "Dima Rekesh",
+      "Fei Jia",
+      "Yang Zhang",
+      "Boris Ginsburg"
+    ],
+    "published": "2024-04-09",
+    "updated": "2024-08-06",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "The needle-in-a-haystack (NIAH) test, which examines the ability to retrieve a piece of information (the \"needle\") from long distractor texts (the \"haystack\"), has been widely adopted to evaluate long-context language models (LMs). However, this simple retrieval-based test is indicative of only a superficial form of long-context understanding. To provide a more comprehensive evaluation of long-context LMs, we create a new synthetic benchmark RULER with flexible configurations for customized sequ",
+    "pdf_url": "https://arxiv.org/pdf/2404.06654v3"
+  },
+  {
+    "arxiv_id": "2407.04363",
+    "title": "AriGraph: Learning Knowledge Graph World Models with Episodic Memory for LLM Agents",
+    "authors": [
+      "Petr Anokhin",
+      "Nikita Semenov",
+      "Artyom Sorokin",
+      "Dmitry Evseev",
+      "Andrey Kravchenko",
+      "Mikhail Burtsev",
+      "Evgeny Burnaev"
+    ],
+    "published": "2024-07-05",
+    "updated": "2025-05-15",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Advancements in the capabilities of Large Language Models (LLMs) have created a promising foundation for developing autonomous agents. With the right tools, these agents could learn to solve tasks in new environments by accumulating and updating their knowledge. Current LLM-based agents process past experiences using a full history of observations, summarization, retrieval augmentation. However, these unstructured memory representations do not facilitate the reasoning and planning essential for ",
+    "pdf_url": "https://arxiv.org/pdf/2407.04363v3"
+  },
+  {
+    "arxiv_id": "2404.16130",
+    "title": "From Local to Global: A Graph RAG Approach to Query-Focused Summarization",
+    "authors": [
+      "Darren Edge",
+      "Ha Trinh",
+      "Newman Cheng",
+      "Joshua Bradley",
+      "Alex Chao",
+      "Apurva Mody",
+      "Steven Truitt",
+      "Dasha Metropolitansky",
+      "Robert Osazuwa Ness",
+      "Jonathan Larson"
+    ],
+    "published": "2024-04-24",
+    "updated": "2025-02-19",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "abstract": "The use of retrieval-augmented generation (RAG) to retrieve relevant information from an external knowledge source enables large language models (LLMs) to answer questions over private and/or previously unseen document collections. However, RAG fails on global questions directed at an entire text corpus, such as \"What are the main themes in the dataset?\", since this is inherently a query-focused summarization (QFS) task, rather than an explicit retrieval task. Prior QFS methods, meanwhile, do no",
+    "pdf_url": "https://arxiv.org/pdf/2404.16130v2"
+  },
+  {
+    "arxiv_id": "2404.11672",
+    "title": "MemLLM: Finetuning LLMs to Use An Explicit Read-Write Memory",
+    "authors": [
+      "Ali Modarressi",
+      "Abdullatif K\u00f6ksal",
+      "Ayyoob Imani",
+      "Mohsen Fayyaz",
+      "Hinrich Sch\u00fctze"
+    ],
+    "published": "2024-04-17",
+    "updated": "2025-04-17",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "While current large language models (LLMs) perform well on many knowledge-related tasks, they are limited by relying on their parameters as an implicit storage mechanism. As a result, they struggle with memorizing rare events and with updating their memory as facts change over time. In addition, the uninterpretable nature of parametric memory makes it challenging to prevent hallucination. Model editing and augmenting LLMs with parameters specialized for memory are only partial solutions. In this",
+    "pdf_url": "https://arxiv.org/pdf/2404.11672v3"
+  },
+  {
+    "arxiv_id": "2305.04542",
+    "title": "Multi-Temporal Lip-Audio Memory for Visual Speech Recognition",
+    "authors": [
+      "Jeong Hun Yeo",
+      "Minsu Kim",
+      "Yong Man Ro"
+    ],
+    "published": "2023-05-08",
+    "updated": "2023-05-08",
+    "categories": [
+      "cs.CV",
+      "eess.AS"
+    ],
+    "abstract": "Visual Speech Recognition (VSR) is a task to predict a sentence or word from lip movements. Some works have been recently presented which use audio signals to supplement visual information. However, existing methods utilize only limited information such as phoneme-level features and soft labels of Automatic Speech Recognition (ASR) networks. In this paper, we present a Multi-Temporal Lip-Audio Memory (MTLAM) that makes the best use of audio signals to complement insufficient information of lip m",
+    "pdf_url": "https://arxiv.org/pdf/2305.04542v1"
+  },
+  {
+    "arxiv_id": "2402.16288",
+    "title": "PerLTQA: A Personal Long-Term Memory Dataset for Memory Classification, Retrieval, and Synthesis in Question Answering",
+    "authors": [
+      "Yiming Du",
+      "Hongru Wang",
+      "Zhengyi Zhao",
+      "Bin Liang",
+      "Baojun Wang",
+      "Wanjun Zhong",
+      "Zezhong Wang",
+      "Kam-Fai Wong"
+    ],
+    "published": "2024-02-26",
+    "updated": "2024-02-26",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "abstract": "Long-term memory plays a critical role in personal interaction, considering long-term memory can better leverage world knowledge, historical information, and preferences in dialogues. Our research introduces PerLTQA, an innovative QA dataset that combines semantic and episodic memories, including world knowledge, profiles, social relationships, events, and dialogues. This dataset is collected to investigate the use of personalized memories, focusing on social interactions and events in the QA ta",
+    "pdf_url": "https://arxiv.org/pdf/2402.16288v1"
+  },
+  {
+    "arxiv_id": "2402.11163",
+    "title": "KG-Agent: An Efficient Autonomous Agent Framework for Complex Reasoning over Knowledge Graph",
+    "authors": [
+      "Jinhao Jiang",
+      "Kun Zhou",
+      "Wayne Xin Zhao",
+      "Yang Song",
+      "Chen Zhu",
+      "Hengshu Zhu",
+      "Ji-Rong Wen"
+    ],
+    "published": "2024-02-17",
+    "updated": "2024-02-17",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "In this paper, we aim to improve the reasoning ability of large language models (LLMs) over knowledge graphs (KGs) to answer complex questions. Inspired by existing methods that design the interaction strategy between LLMs and KG, we propose an autonomous LLM-based agent framework, called KG-Agent, which enables a small LLM to actively make decisions until finishing the reasoning process over KGs. In KG-Agent, we integrate the LLM, multifunctional toolbox, KG-based executor, and knowledge memory",
+    "pdf_url": "https://arxiv.org/pdf/2402.11163v1"
+  },
+  {
+    "arxiv_id": "2404.00573",
+    "title": "\"My agent understands me better\": Integrating Dynamic Human-like Memory Recall and Consolidation in LLM-Based Agents",
+    "authors": [
+      "Yuki Hou",
+      "Haruki Tamoto",
+      "Homei Miyashita"
+    ],
+    "published": "2024-03-31",
+    "updated": "2024-03-31",
+    "categories": [
+      "cs.HC"
+    ],
+    "abstract": "In this study, we propose a novel human-like memory architecture designed for enhancing the cognitive abilities of large language model based dialogue agents. Our proposed architecture enables agents to autonomously recall memories necessary for response generation, effectively addressing a limitation in the temporal cognition of LLMs. We adopt the human memory cue recall as a trigger for accurate and efficient memory recall. Moreover, we developed a mathematical model that dynamically quantifie",
+    "pdf_url": "https://arxiv.org/pdf/2404.00573v1"
+  },
+  {
+    "arxiv_id": "2308.14508",
+    "title": "LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding",
+    "authors": [
+      "Yushi Bai",
+      "Xin Lv",
+      "Jiajie Zhang",
+      "Hongchang Lyu",
+      "Jiankai Tang",
+      "Zhidian Huang",
+      "Zhengxiao Du",
+      "Xiao Liu",
+      "Aohan Zeng",
+      "Lei Hou",
+      "Yuxiao Dong",
+      "Jie Tang",
+      "Juanzi Li"
+    ],
+    "published": "2023-08-28",
+    "updated": "2024-06-19",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Although large language models (LLMs) demonstrate impressive performance for many language tasks, most of them can only handle texts a few thousand tokens long, limiting their applications on longer sequence inputs, such as books, reports, and codebases. Recent works have proposed methods to improve LLMs' long context capabilities by extending context windows and more sophisticated memory mechanisms. However, comprehensive benchmarks tailored for evaluating long context understanding are lacking",
+    "pdf_url": "https://arxiv.org/pdf/2308.14508v2"
+  },
+  {
+    "arxiv_id": "2409.20163",
+    "title": "MemSim: A Bayesian Simulator for Evaluating Memory of LLM-based Personal Assistants",
+    "authors": [
+      "Zeyu Zhang",
+      "Quanyu Dai",
+      "Luyu Chen",
+      "Zeren Jiang",
+      "Rui Li",
+      "Jieming Zhu",
+      "Xu Chen",
+      "Yi Xie",
+      "Zhenhua Dong",
+      "Ji-Rong Wen"
+    ],
+    "published": "2024-09-30",
+    "updated": "2024-09-30",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "LLM-based agents have been widely applied as personal assistants, capable of memorizing information from user messages and responding to personal queries. However, there still lacks an objective and automatic evaluation on their memory capability, largely due to the challenges in constructing reliable questions and answers (QAs) according to user messages. In this paper, we propose MemSim, a Bayesian simulator designed to automatically construct reliable QAs from generated user messages, simulta",
+    "pdf_url": "https://arxiv.org/pdf/2409.20163v1"
+  },
+  {
+    "arxiv_id": "2307.13854",
+    "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+    "authors": [
+      "Shuyan Zhou",
+      "Frank F. Xu",
+      "Hao Zhu",
+      "Xuhui Zhou",
+      "Robert Lo",
+      "Abishek Sridhar",
+      "Xianyi Cheng",
+      "Tianyue Ou",
+      "Yonatan Bisk",
+      "Daniel Fried",
+      "Uri Alon",
+      "Graham Neubig"
+    ],
+    "published": "2023-07-25",
+    "updated": "2024-04-16",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "abstract": "With advances in generative AI, there is now potential for autonomous agents to manage daily tasks via natural language commands. However, current agents are primarily created and tested in simplified synthetic environments, leading to a disconnect with real-world scenarios. In this paper, we build an environment for language-guided agents that is highly realistic and reproducible. Specifically, we focus on agents that perform tasks on the web, and create an environment with fully functional web",
+    "pdf_url": "https://arxiv.org/pdf/2307.13854v4"
+  },
+  {
+    "arxiv_id": "2409.15240",
+    "title": "MADial-Bench: Towards Real-world Evaluation of Memory-Augmented Dialogue Generation",
+    "authors": [
+      "Junqing He",
+      "Liang Zhu",
+      "Rui Wang",
+      "Xi Wang",
+      "Reza Haffari",
+      "Jiaxing Zhang"
+    ],
+    "published": "2024-09-23",
+    "updated": "2024-10-23",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Long-term memory is important for chatbots and dialogue systems (DS) to create consistent and human-like conversations, evidenced by numerous developed memory-augmented DS (MADS). To evaluate the effectiveness of such MADS, existing commonly used evaluation metrics, like retrieval accuracy and perplexity (PPL), mainly focus on query-oriented factualness and language quality assessment. However, these metrics often lack practical value. Moreover, the evaluation dimensions are insufficient for hum",
+    "pdf_url": "https://arxiv.org/pdf/2409.15240v2"
+  },
+  {
+    "arxiv_id": "2406.13743",
+    "title": "GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation",
+    "authors": [
+      "Baiqi Li",
+      "Zhiqiu Lin",
+      "Deepak Pathak",
+      "Jiayao Li",
+      "Yixin Fei",
+      "Kewen Wu",
+      "Tiffany Ling",
+      "Xide Xia",
+      "Pengchuan Zhang",
+      "Graham Neubig",
+      "Deva Ramanan"
+    ],
+    "published": "2024-06-19",
+    "updated": "2024-11-03",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.MM"
+    ],
+    "abstract": "While text-to-visual models now produce photo-realistic images and videos, they struggle with compositional text prompts involving attributes, relationships, and higher-order reasoning such as logic and comparison. In this work, we conduct an extensive human study on GenAI-Bench to evaluate the performance of leading image and video generation models in various aspects of compositional text-to-visual generation. We also compare automated evaluation metrics against our collected human ratings and",
+    "pdf_url": "https://arxiv.org/pdf/2406.13743v3"
+  },
+  {
+    "arxiv_id": "2406.10149",
+    "title": "BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack",
+    "authors": [
+      "Yuri Kuratov",
+      "Aydar Bulatov",
+      "Petr Anokhin",
+      "Ivan Rodkin",
+      "Dmitry Sorokin",
+      "Artyom Sorokin",
+      "Mikhail Burtsev"
+    ],
+    "published": "2024-06-14",
+    "updated": "2024-11-06",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "In recent years, the input context sizes of large language models (LLMs) have increased dramatically. However, existing evaluation methods have not kept pace, failing to comprehensively assess the efficiency of models in handling long contexts. To bridge this gap, we introduce the BABILong benchmark, designed to test language models' ability to reason across facts distributed in extremely long documents. BABILong includes a diverse set of 20 reasoning tasks, including fact chaining, simple induc",
+    "pdf_url": "https://arxiv.org/pdf/2406.10149v2"
+  },
+  {
+    "arxiv_id": "2412.15266",
+    "title": "On the Structural Memory of LLM Agents",
+    "authors": [
+      "Ruihong Zeng",
+      "Jinyuan Fang",
+      "Siwei Liu",
+      "Zaiqiao Meng"
+    ],
+    "published": "2024-12-17",
+    "updated": "2024-12-17",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Memory plays a pivotal role in enabling large language model~(LLM)-based agents to engage in complex and long-term interactions, such as question answering (QA) and dialogue systems. While various memory modules have been proposed for these tasks, the impact of different memory structures across tasks remains insufficiently explored. This paper investigates how memory structures and memory retrieval methods affect the performance of LLM-based agents. Specifically, we evaluate four types of memor",
+    "pdf_url": "https://arxiv.org/pdf/2412.15266v1"
+  },
+  {
+    "arxiv_id": "2110.07058",
+    "title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video",
+    "authors": [
+      "Kristen Grauman",
+      "Andrew Westbury",
+      "Eugene Byrne",
+      "Zachary Chavis",
+      "Antonino Furnari",
+      "Rohit Girdhar",
+      "Jackson Hamburger",
+      "Hao Jiang",
+      "Miao Liu",
+      "Xingyu Liu",
+      "Miguel Martin",
+      "Tushar Nagarajan",
+      "Ilija Radosavovic",
+      "Santhosh Kumar Ramakrishnan",
+      "Fiona Ryan",
+      "Jayant Sharma",
+      "Michael Wray",
+      "Mengmeng Xu",
+      "Eric Zhongcong Xu",
+      "Chen Zhao",
+      "Siddhant Bansal",
+      "Dhruv Batra",
+      "Vincent Cartillier",
+      "Sean Crane",
+      "Tien Do",
+      "Morrie Doulaty",
+      "Akshay Erapalli",
+      "Christoph Feichtenhofer",
+      "Adriano Fragomeni",
+      "Qichen Fu",
+      "Abrham Gebreselasie",
+      "Cristina Gonzalez",
+      "James Hillis",
+      "Xuhua Huang",
+      "Yifei Huang",
+      "Wenqi Jia",
+      "Weslie Khoo",
+      "Jachym Kolar",
+      "Satwik Kottur",
+      "Anurag Kumar",
+      "Federico Landini",
+      "Chao Li",
+      "Yanghao Li",
+      "Zhenqiang Li",
+      "Karttikeya Mangalam",
+      "Raghava Modhugu",
+      "Jonathan Munro",
+      "Tullie Murrell",
+      "Takumi Nishiyasu",
+      "Will Price",
+      "Paola Ruiz Puentes",
+      "Merey Ramazanova",
+      "Leda Sari",
+      "Kiran Somasundaram",
+      "Audrey Southerland",
+      "Yusuke Sugano",
+      "Ruijie Tao",
+      "Minh Vo",
+      "Yuchen Wang",
+      "Xindi Wu",
+      "Takuma Yagi",
+      "Ziwei Zhao",
+      "Yunyi Zhu",
+      "Pablo Arbelaez",
+      "David Crandall",
+      "Dima Damen",
+      "Giovanni Maria Farinella",
+      "Christian Fuegen",
+      "Bernard Ghanem",
+      "Vamsi Krishna Ithapu",
+      "C. V. Jawahar",
+      "Hanbyul Joo",
+      "Kris Kitani",
+      "Haizhou Li",
+      "Richard Newcombe",
+      "Aude Oliva",
+      "Hyun Soo Park",
+      "James M. Rehg",
+      "Yoichi Sato",
+      "Jianbo Shi",
+      "Mike Zheng Shou",
+      "Antonio Torralba",
+      "Lorenzo Torresani",
+      "Mingfei Yan",
+      "Jitendra Malik"
+    ],
+    "published": "2021-10-13",
+    "updated": "2022-03-11",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "abstract": "We introduce Ego4D, a massive-scale egocentric video dataset and benchmark suite. It offers 3,670 hours of daily-life activity video spanning hundreds of scenarios (household, outdoor, workplace, leisure, etc.) captured by 931 unique camera wearers from 74 worldwide locations and 9 different countries. The approach to collection is designed to uphold rigorous privacy and ethics standards with consenting participants and robust de-identification procedures where relevant. Ego4D dramatically expan",
+    "pdf_url": "https://arxiv.org/pdf/2110.07058v3"
+  },
+  {
+    "arxiv_id": "2203.07540",
+    "title": "ScienceWorld: Is your Agent Smarter than a 5th Grader?",
+    "authors": [
+      "Ruoyao Wang",
+      "Peter Jansen",
+      "Marc-Alexandre C\u00f4t\u00e9",
+      "Prithviraj Ammanabrolu"
+    ],
+    "published": "2022-03-14",
+    "updated": "2022-11-14",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "We present ScienceWorld, a benchmark to test agents' scientific reasoning abilities in a new interactive text environment at the level of a standard elementary school science curriculum. Despite the transformer-based progress seen in question-answering and scientific text processing, we find that current models cannot reason about or explain learned science concepts in novel contexts. For instance, models can easily answer what the conductivity of a known material is but struggle when asked how ",
+    "pdf_url": "https://arxiv.org/pdf/2203.07540v2"
+  },
+  {
+    "arxiv_id": "2305.10250",
+    "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+    "authors": [
+      "Wanjun Zhong",
+      "Lianghong Guo",
+      "Qiqi Gao",
+      "He Ye",
+      "Yanlin Wang"
+    ],
+    "published": "2023-05-17",
+    "updated": "2023-05-21",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Revolutionary advancements in Large Language Models have drastically reshaped our interactions with artificial intelligence systems. Despite this, a notable hindrance remains-the deficiency of a long-term memory mechanism within these models. This shortfall becomes increasingly evident in situations demanding sustained interaction, such as personal companion systems and psychological counseling. Therefore, we propose MemoryBank, a novel memory mechanism tailored for LLMs. MemoryBank enables the ",
+    "pdf_url": "https://arxiv.org/pdf/2305.10250v3"
+  },
+  {
+    "arxiv_id": "2305.17144",
+    "title": "Ghost in the Minecraft: Generally Capable Agents for Open-World Environments via Large Language Models with Text-based Knowledge and Memory",
+    "authors": [
+      "Xizhou Zhu",
+      "Yuntao Chen",
+      "Hao Tian",
+      "Chenxin Tao",
+      "Weijie Su",
+      "Chenyu Yang",
+      "Gao Huang",
+      "Bin Li",
+      "Lewei Lu",
+      "Xiaogang Wang",
+      "Yu Qiao",
+      "Zhaoxiang Zhang",
+      "Jifeng Dai"
+    ],
+    "published": "2023-05-25",
+    "updated": "2023-06-01",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "abstract": "The captivating realm of Minecraft has attracted substantial research interest in recent years, serving as a rich platform for developing intelligent agents capable of functioning in open-world environments. However, the current research landscape predominantly focuses on specific objectives, such as the popular \"ObtainDiamond\" task, and has not yet shown effective generalization to a broader spectrum of tasks. Furthermore, the current leading success rate for the \"ObtainDiamond\" task stands at ",
+    "pdf_url": "https://arxiv.org/pdf/2305.17144v2"
+  },
+  {
+    "arxiv_id": "1705.03551",
+    "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+    "authors": [
+      "Mandar Joshi",
+      "Eunsol Choi",
+      "Daniel S. Weld",
+      "Luke Zettlemoyer"
+    ],
+    "published": "2017-05-09",
+    "updated": "2017-05-13",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "We present TriviaQA, a challenging reading comprehension dataset containing over 650K question-answer-evidence triples. TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average, that provide high quality distant supervision for answering the questions. We show that, in comparison to other recently introduced large-scale datasets, TriviaQA (1) has relatively complex, compositional questions, (2) has consi",
+    "pdf_url": "https://arxiv.org/pdf/1705.03551v2"
+  },
+  {
+    "arxiv_id": "2501.13956",
+    "title": "Zep: A Temporal Knowledge Graph Architecture for Agent Memory",
+    "authors": [
+      "Preston Rasmussen",
+      "Pavlo Paliychuk",
+      "Travis Beauvais",
+      "Jack Ryan",
+      "Daniel Chalef"
+    ],
+    "published": "2025-01-20",
+    "updated": "2025-01-20",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "abstract": "We introduce Zep, a novel memory layer service for AI agents that outperforms the current state-of-the-art system, MemGPT, in the Deep Memory Retrieval (DMR) benchmark. Additionally, Zep excels in more comprehensive and challenging evaluations than DMR that better reflect real-world enterprise use cases. While existing retrieval-augmented generation (RAG) frameworks for large language model (LLM)-based agents are limited to static document retrieval, enterprise applications demand dynamic knowle",
+    "pdf_url": "https://arxiv.org/pdf/2501.13956v1"
+  },
+  {
+    "arxiv_id": "2406.08747",
+    "title": "StreamBench: Towards Benchmarking Continuous Improvement of Language Agents",
+    "authors": [
+      "Cheng-Kuang Wu",
+      "Zhi Rui Tam",
+      "Chieh-Yen Lin",
+      "Yun-Nung Chen",
+      "Hung-yi Lee"
+    ],
+    "published": "2024-06-13",
+    "updated": "2024-10-31",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Recent works have shown that large language model (LLM) agents are able to improve themselves from experience, which is an important ability for continuous enhancement post-deployment. However, existing benchmarks primarily evaluate their innate capabilities and do not assess their ability to improve over time. To address this gap, we introduce StreamBench, a pioneering benchmark designed to evaluate the continuous improvement of LLM agents over an input-feedback sequence. StreamBench simulates ",
+    "pdf_url": "https://arxiv.org/pdf/2406.08747v2"
+  },
+  {
+    "arxiv_id": "2406.13144",
+    "title": "DialSim: A Dialogue Simulator for Evaluating Long-Term Multi-Party Dialogue Understanding of Conversational Agents",
+    "authors": [
+      "Jiho Kim",
+      "Woosog Chay",
+      "Hyeonji Hwang",
+      "Daeun Kyung",
+      "Hyunseung Chung",
+      "Eunbyeol Cho",
+      "Yeonsu Kwon",
+      "Yohan Jo",
+      "Edward Choi"
+    ],
+    "published": "2024-06-19",
+    "updated": "2025-09-26",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Recent advancements in Large Language Models (LLMs) have significantly enhanced conversational agents, making them applicable to various fields (e.g., education, entertainment). Despite their progress, the evaluation of the agents often overlooks the complexities of real-world conversations, such as multi-party dialogues and extended contextual dependencies. To bridge this gap, we introduce DialSim, a dialogue simulation-based evaluation framework. In DialSim, an agent assumes the role of a char",
+    "pdf_url": "https://arxiv.org/pdf/2406.13144v6"
+  },
+  {
+    "arxiv_id": "2311.12983",
+    "title": "GAIA: a benchmark for General AI Assistants",
+    "authors": [
+      "Gr\u00e9goire Mialon",
+      "Cl\u00e9mentine Fourrier",
+      "Craig Swift",
+      "Thomas Wolf",
+      "Yann LeCun",
+      "Thomas Scialom"
+    ],
+    "published": "2023-11-21",
+    "updated": "2023-11-21",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "We introduce GAIA, a benchmark for General AI Assistants that, if solved, would represent a milestone in AI research. GAIA proposes real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency. GAIA questions are conceptually simple for humans yet challenging for most advanced AIs: we show that human respondents obtain 92\\% vs. 15\\% for GPT-4 equipped with plugins. This notable performance disparity ",
+    "pdf_url": "https://arxiv.org/pdf/2311.12983v1"
+  },
+  {
+    "arxiv_id": "2307.02738",
+    "title": "RecallM: An Adaptable Memory Mechanism with Temporal Understanding for Large Language Models",
+    "authors": [
+      "Brandon Kynoch",
+      "Hugo Latapie",
+      "Dwane van der Sluis"
+    ],
+    "published": "2023-07-06",
+    "updated": "2023-10-03",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.SC"
+    ],
+    "abstract": "Large Language Models (LLMs) have made extraordinary progress in the field of Artificial Intelligence and have demonstrated remarkable capabilities across a large variety of tasks and domains. However, as we venture closer to creating Artificial General Intelligence (AGI) systems, we recognize the need to supplement LLMs with long-term memory to overcome the context window limitation and more importantly, to create a foundation for sustained reasoning, cumulative learning and long-term user inte",
+    "pdf_url": "https://arxiv.org/pdf/2307.02738v3"
+  },
+  {
+    "arxiv_id": "2402.17753",
+    "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+    "authors": [
+      "Adyasha Maharana",
+      "Dong-Ho Lee",
+      "Sergey Tulyakov",
+      "Mohit Bansal",
+      "Francesco Barbieri",
+      "Yuwei Fang"
+    ],
+    "published": "2024-02-27",
+    "updated": "2024-02-27",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Existing works on long-term open-domain dialogues focus on evaluating model responses within contexts spanning no more than five chat sessions. Despite advancements in long-context large language models (LLMs) and retrieval augmented generation (RAG) techniques, their efficacy in very long-term dialogues remains unexplored. To address this research gap, we introduce a machine-human pipeline to generate high-quality, very long-term dialogues by leveraging LLM-based agent architectures and groundi",
+    "pdf_url": "https://arxiv.org/pdf/2402.17753v1"
+  },
+  {
+    "arxiv_id": "2011.01060",
+    "title": "Constructing A Multi-hop QA Dataset for Comprehensive Evaluation of Reasoning Steps",
+    "authors": [
+      "Xanh Ho",
+      "Anh-Khoa Duong Nguyen",
+      "Saku Sugawara",
+      "Akiko Aizawa"
+    ],
+    "published": "2020-11-02",
+    "updated": "2020-11-12",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "A multi-hop question answering (QA) dataset aims to test reasoning and inference skills by requiring a model to read multiple paragraphs to answer a given question. However, current datasets do not provide a complete explanation for the reasoning process from the question to the answer. Further, previous studies revealed that many examples in existing multi-hop datasets do not require multi-hop reasoning to answer a question. In this study, we present a new multi-hop QA dataset, called 2WikiMult",
+    "pdf_url": "https://arxiv.org/pdf/2011.01060v2"
+  },
+  {
+    "arxiv_id": "1810.08272",
+    "title": "BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning",
+    "authors": [
+      "Maxime Chevalier-Boisvert",
+      "Dzmitry Bahdanau",
+      "Salem Lahlou",
+      "Lucas Willems",
+      "Chitwan Saharia",
+      "Thien Huu Nguyen",
+      "Yoshua Bengio"
+    ],
+    "published": "2018-10-18",
+    "updated": "2019-12-19",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Allowing humans to interactively train artificial agents to understand language instructions is desirable for both practical and scientific reasons, but given the poor data efficiency of the current learning methods, this goal may require substantial research efforts. Here, we introduce the BabyAI research platform to support investigations towards including humans in the loop for grounded language learning. The BabyAI platform comprises an extensible suite of 19 levels of increasing difficulty.",
+    "pdf_url": "https://arxiv.org/pdf/1810.08272v4"
+  },
+  {
+    "arxiv_id": "2509.25911",
+    "title": "Mem-\u03b1: Learning Memory Construction via Reinforcement Learning",
+    "authors": [
+      "Yu Wang",
+      "Ryuichi Takanobu",
+      "Zhiqi Liang",
+      "Yuzhen Mao",
+      "Yuanzhe Hu",
+      "Julian McAuley",
+      "Xiaojian Wu"
+    ],
+    "published": "2025-09-30",
+    "updated": "2025-09-30",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Large language model (LLM) agents are constrained by limited context windows, necessitating external memory systems for long-term information understanding. Current memory-augmented agents typically depend on pre-defined instructions and tools for memory updates. However, language models may lack the ability to determine which information to store, how to structure it, and when to update it, especially as memory systems become more complex. This results in suboptimal memory construction and info",
+    "pdf_url": "https://arxiv.org/pdf/2509.25911v1"
+  },
+  {
+    "arxiv_id": "2510.01353",
+    "title": "MEMTRACK: Evaluating Long-Term Memory and State Tracking in Multi-Platform Dynamic Agent Environments",
+    "authors": [
+      "Darshan Deshpande",
+      "Varun Gangal",
+      "Hersh Mehta",
+      "Anand Kannappan",
+      "Rebecca Qian",
+      "Peng Wang"
+    ],
+    "published": "2025-10-01",
+    "updated": "2025-10-01",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Recent works on context and memory benchmarking have primarily focused on conversational instances but the need for evaluating memory in dynamic enterprise environments is crucial for its effective application. We introduce MEMTRACK, a benchmark designed to evaluate long-term memory and state tracking in multi-platform agent environments. MEMTRACK models realistic organizational workflows by integrating asynchronous events across multiple communication and productivity platforms such as Slack, L",
+    "pdf_url": "https://arxiv.org/pdf/2510.01353v1"
+  },
+  {
+    "arxiv_id": "2504.19413",
+    "title": "Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory",
+    "authors": [
+      "Prateek Chhikara",
+      "Dev Khant",
+      "Saket Aryan",
+      "Taranjeet Singh",
+      "Deshraj Yadav"
+    ],
+    "published": "2025-04-28",
+    "updated": "2025-04-28",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Large Language Models (LLMs) have demonstrated remarkable prowess in generating contextually coherent responses, yet their fixed context windows pose fundamental challenges for maintaining consistency over prolonged multi-session dialogues. We introduce Mem0, a scalable memory-centric architecture that addresses this issue by dynamically extracting, consolidating, and retrieving salient information from ongoing conversations. Building on this foundation, we further propose an enhanced variant th",
+    "pdf_url": "https://arxiv.org/pdf/2504.19413v1"
+  },
+  {
+    "arxiv_id": "2506.10508",
+    "title": "Reliable Reasoning Path: Distilling Effective Guidance for LLM Reasoning with Knowledge Graphs",
+    "authors": [
+      "Yilin Xiao",
+      "Chuang Zhou",
+      "Qinggang Zhang",
+      "Bo Li",
+      "Qing Li",
+      "Xiao Huang"
+    ],
+    "published": "2025-06-12",
+    "updated": "2025-06-12",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Large language models (LLMs) often struggle with knowledge-intensive tasks due to a lack of background knowledge and a tendency to hallucinate. To address these limitations, integrating knowledge graphs (KGs) with LLMs has been intensively studied. Existing KG-enhanced LLMs focus on supplementary factual knowledge, but still struggle with solving complex questions. We argue that refining the relationships among facts and organizing them into a logically consistent reasoning path is equally impor",
+    "pdf_url": "https://arxiv.org/pdf/2506.10508v1"
+  },
+  {
+    "arxiv_id": "2506.01952",
+    "title": "WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks",
+    "authors": [
+      "Atsuyuki Miyai",
+      "Zaiying Zhao",
+      "Kazuki Egashira",
+      "Atsuki Sato",
+      "Tatsumi Sunada",
+      "Shota Onohara",
+      "Hiromasa Yamanishi",
+      "Mashiro Toyooka",
+      "Kunato Nishina",
+      "Ryoma Maeda",
+      "Kiyoharu Aizawa",
+      "Toshihiko Yamasaki"
+    ],
+    "published": "2025-06-02",
+    "updated": "2025-06-02",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Powered by a large language model (LLM), a web browsing agent operates web browsers in a human-like manner and offers a highly transparent path toward automating a wide range of everyday tasks. As web agents become increasingly capable and demonstrate proficiency in general browsing tasks, a critical question emerges: Can they go beyond general browsing to robustly handle tasks that are tedious and complex, or chores that humans often avoid doing themselves? In this paper, we introduce WebChoreA",
+    "pdf_url": "https://arxiv.org/pdf/2506.01952v1"
+  },
+  {
+    "arxiv_id": "2511.02805",
+    "title": "MemSearcher: Training LLMs to Reason, Search and Manage Memory via End-to-End Reinforcement Learning",
+    "authors": [
+      "Qianhao Yuan",
+      "Jie Lou",
+      "Zichao Li",
+      "Jiawei Chen",
+      "Yaojie Lu",
+      "Hongyu Lin",
+      "Le Sun",
+      "Debing Zhang",
+      "Xianpei Han"
+    ],
+    "published": "2025-11-04",
+    "updated": "2026-05-08",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "LLM-based search agents often concatenate the full interaction history into the context, producing long and noisy inputs, and increasing compute cost and GPU memory overhead. To address this issue, we propose MemSearcher, an agent framework that maintains a compact memory during multi-turn interactions, retaining only question-relevant information and thereby keeping the context length stable across turns. Training MemSearcher is challenging because each trajectory spans multiple turns under dif",
+    "pdf_url": "https://arxiv.org/pdf/2511.02805v2"
+  },
+  {
+    "arxiv_id": "2503.10049",
+    "title": "Enhancing Multi-Agent Systems via Reinforcement Learning with LLM-based Planner and Graph-based Policy",
+    "authors": [
+      "Ziqi Jia",
+      "Junjie Li",
+      "Xiaoyang Qu",
+      "Jianzong Wang"
+    ],
+    "published": "2025-03-13",
+    "updated": "2025-03-13",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "Multi-agent systems (MAS) have shown great potential in executing complex tasks, but coordination and safety remain significant challenges. Multi-Agent Reinforcement Learning (MARL) offers a promising framework for agent collaboration, but it faces difficulties in handling complex tasks and designing reward functions. The introduction of Large Language Models (LLMs) has brought stronger reasoning and cognitive abilities to MAS, but existing LLM-based systems struggle to respond quickly and accur",
+    "pdf_url": "https://arxiv.org/pdf/2503.10049v1"
+  },
+  {
+    "arxiv_id": "2507.07957",
+    "title": "MIRIX: Multi-Agent Memory System for LLM-Based Agents",
+    "authors": [
+      "Yu Wang",
+      "Xi Chen"
+    ],
+    "published": "2025-07-10",
+    "updated": "2025-07-10",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Although memory capabilities of AI agents are gaining increasing attention, existing solutions remain fundamentally limited. Most rely on flat, narrowly scoped memory components, constraining their ability to personalize, abstract, and reliably recall user-specific information over time. To this end, we introduce MIRIX, a modular, multi-agent memory system that redefines the future of AI memory by solving the field's most critical challenge: enabling language models to truly remember. Unlike pri",
+    "pdf_url": "https://arxiv.org/pdf/2507.07957v1"
+  },
+  {
+    "arxiv_id": "2503.21760",
+    "title": "MemInsight: Autonomous Memory Augmentation for LLM Agents",
+    "authors": [
+      "Rana Salama",
+      "Jason Cai",
+      "Michelle Yuan",
+      "Anna Currey",
+      "Monica Sunkara",
+      "Yi Zhang",
+      "Yassine Benajiba"
+    ],
+    "published": "2025-03-27",
+    "updated": "2025-07-31",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Large language model (LLM) agents have evolved to intelligently process information, make decisions, and interact with users or tools. A key capability is the integration of long-term memory capabilities, enabling these agents to draw upon historical interactions and knowledge. However, the growing memory size and need for semantic structuring pose significant challenges. In this work, we propose an autonomous memory augmentation approach, MemInsight, to enhance semantic data representation and ",
+    "pdf_url": "https://arxiv.org/pdf/2503.21760v2"
+  },
+  {
+    "arxiv_id": "2511.01448",
+    "title": "LiCoMemory: Lightweight and Cognitive Agentic Memory for Efficient Long-Term Reasoning",
+    "authors": [
+      "Zhengjun Huang",
+      "Zhoujin Tian",
+      "Qintian Guo",
+      "Fangyuan Zhang",
+      "Yingli Zhou",
+      "Di Jiang",
+      "Zeying Xie",
+      "Xiaofang Zhou"
+    ],
+    "published": "2025-11-03",
+    "updated": "2026-01-06",
+    "categories": [
+      "cs.IR"
+    ],
+    "abstract": "Large Language Model (LLM) agents exhibit remarkable conversational and reasoning capabilities but remain constrained by limited context windows and the lack of persistent memory. Recent efforts address these limitations via external memory architectures, often employing graph-based representations, yet most adopt flat, entangled structures that intertwine semantics with topology, leading to redundant representations, unstructured retrieval, and degraded efficiency and accuracy. To resolve these",
+    "pdf_url": "https://arxiv.org/pdf/2511.01448v2"
+  },
+  {
+    "arxiv_id": "2508.19828",
+    "title": "Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning",
+    "authors": [
+      "Sikuan Yan",
+      "Xiufeng Yang",
+      "Zuchao Huang",
+      "Ercong Nie",
+      "Zifeng Ding",
+      "Zonggen Li",
+      "Xiaowen Ma",
+      "Jinhe Bi",
+      "Kristian Kersting",
+      "Jeff Z. Pan",
+      "Hinrich Sch\u00fctze",
+      "Volker Tresp",
+      "Yunpu Ma"
+    ],
+    "published": "2025-08-27",
+    "updated": "2026-01-14",
+    "categories": [
+      "cs.CL",
+      "cs.MA"
+    ],
+    "abstract": "Large Language Models (LLMs) have demonstrated impressive capabilities across a wide range of NLP tasks, but they remain fundamentally stateless, constrained by limited context windows that hinder long-horizon reasoning. Recent efforts to address this limitation often augment LLMs with an external memory bank, yet most existing pipelines are static and heuristic-driven, lacking a learned mechanism for deciding what to store, update, or retrieve. We present Memory-R1, a reinforcement learning (RL",
+    "pdf_url": "https://arxiv.org/pdf/2508.19828v5"
+  },
+  {
+    "arxiv_id": "2508.13250",
+    "title": "Explicit v.s. Implicit Memory: Exploring Multi-hop Complex Reasoning Over Personalized Information",
+    "authors": [
+      "Zeyu Zhang",
+      "Yang Zhang",
+      "Haoran Tan",
+      "Rui Li",
+      "Xu Chen"
+    ],
+    "published": "2025-08-18",
+    "updated": "2025-08-18",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.IR"
+    ],
+    "abstract": "In large language model-based agents, memory serves as a critical capability for achieving personalization by storing and utilizing users' information. Although some previous studies have adopted memory to implement user personalization, they typically focus on preference alignment and simple question-answering. However, in the real world, complex tasks often require multi-hop reasoning on a large amount of user information, which poses significant challenges for current memory approaches. To ad",
+    "pdf_url": "https://arxiv.org/pdf/2508.13250v1"
+  },
+  {
+    "arxiv_id": "2507.06229",
+    "title": "Agent KB: Leveraging Cross-Domain Experience for Agentic Problem Solving",
+    "authors": [
+      "Xiangru Tang",
+      "Tianrui Qin",
+      "Tianhao Peng",
+      "Ziyang Zhou",
+      "Daniel Shao",
+      "Tingting Du",
+      "Xinming Wei",
+      "Peng Xia",
+      "Fang Wu",
+      "He Zhu",
+      "Ge Zhang",
+      "Jiaheng Liu",
+      "Xingyao Wang",
+      "Sirui Hong",
+      "Chenglin Wu",
+      "Hao Cheng",
+      "Chi Wang",
+      "Wangchunshu Zhou"
+    ],
+    "published": "2025-07-08",
+    "updated": "2025-10-27",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "AI agent frameworks operate in isolation, forcing agents to rediscover solutions and repeat mistakes across different systems. Despite valuable problem-solving experiences accumulated by frameworks like smolagents, OpenHands, and OWL, this knowledge remains trapped within individual systems, preventing the emergence of collective intelligence. Current memory systems focus on individual agents or framework-specific demonstrations, failing to enable cross-architecture knowledge transfer. We introd",
+    "pdf_url": "https://arxiv.org/pdf/2507.06229v5"
+  },
+  {
+    "arxiv_id": "2504.14225",
+    "title": "Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale",
+    "authors": [
+      "Bowen Jiang",
+      "Zhuoqun Hao",
+      "Young-Min Cho",
+      "Bryan Li",
+      "Yuan Yuan",
+      "Sihao Chen",
+      "Lyle Ungar",
+      "Camillo J. Taylor",
+      "Dan Roth"
+    ],
+    "published": "2025-04-19",
+    "updated": "2025-10-27",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Large Language Models (LLMs) have emerged as personalized assistants for users across a wide range of tasks -- from offering writing support to delivering tailored recommendations or consultations. Over time, the interaction history between a user and an LLM can provide extensive information about an individual's traits and preferences. However, open questions remain on how well LLMs today can effectively leverage such history to (1) internalize the user's inherent traits and preferences, (2) tr",
+    "pdf_url": "https://arxiv.org/pdf/2504.14225v2"
+  },
+  {
+    "arxiv_id": "2504.15965",
+    "title": "From Human Memory to AI Memory: A Survey on Memory Mechanisms in the Era of LLMs",
+    "authors": [
+      "Yaxiong Wu",
+      "Sheng Liang",
+      "Chen Zhang",
+      "Yichao Wang",
+      "Yongyue Zhang",
+      "Huifeng Guo",
+      "Ruiming Tang",
+      "Yong Liu"
+    ],
+    "published": "2025-04-22",
+    "updated": "2025-04-23",
+    "categories": [
+      "cs.IR"
+    ],
+    "abstract": "Memory is the process of encoding, storing, and retrieving information, allowing humans to retain experiences, knowledge, skills, and facts over time, and serving as the foundation for growth and effective interaction with the world. It plays a crucial role in shaping our identity, making decisions, learning from past experiences, building relationships, and adapting to changes. In the era of large language models (LLMs), memory refers to the ability of an AI system to retain, recall, and use in",
+    "pdf_url": "https://arxiv.org/pdf/2504.15965v2"
+  },
+  {
+    "arxiv_id": "2506.07398",
+    "title": "G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems",
+    "authors": [
+      "Guibin Zhang",
+      "Muxin Fu",
+      "Guancheng Wan",
+      "Miao Yu",
+      "Kun Wang",
+      "Shuicheng Yan"
+    ],
+    "published": "2025-06-09",
+    "updated": "2025-06-16",
+    "categories": [
+      "cs.MA",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "abstract": "Large language model (LLM)-powered multi-agent systems (MAS) have demonstrated cognitive and execution capabilities that far exceed those of single LLM agents, yet their capacity for self-evolution remains hampered by underdeveloped memory architectures. Upon close inspection, we are alarmed to discover that prevailing MAS memory mechanisms (1) are overly simplistic, completely disregarding the nuanced inter-agent collaboration trajectories, and (2) lack cross-trial and agent-specific customizat",
+    "pdf_url": "https://arxiv.org/pdf/2506.07398v2"
+  },
+  {
+    "arxiv_id": "2506.13651",
+    "title": "xbench: Tracking Agents Productivity Scaling with Profession-Aligned Real-World Evaluations",
+    "authors": [
+      "Kaiyuan Chen",
+      "Yixin Ren",
+      "Yang Liu",
+      "Xiaobo Hu",
+      "Haotong Tian",
+      "Tianbao Xie",
+      "Fangfu Liu",
+      "Haoye Zhang",
+      "Hongzhang Liu",
+      "Yuan Gong",
+      "Chen Sun",
+      "Han Hou",
+      "Hui Yang",
+      "James Pan",
+      "Jianan Lou",
+      "Jiayi Mao",
+      "Jizheng Liu",
+      "Jinpeng Li",
+      "Kangyi Liu",
+      "Kenkun Liu",
+      "Rui Wang",
+      "Run Li",
+      "Tong Niu",
+      "Wenlong Zhang",
+      "Wenqi Yan",
+      "Xuanzheng Wang",
+      "Yuchen Zhang",
+      "Yi-Hsin Hung",
+      "Yuan Jiang",
+      "Zexuan Liu",
+      "Zihan Yin",
+      "Zijian Ma",
+      "Zhiwen Mo"
+    ],
+    "published": "2025-06-16",
+    "updated": "2025-06-16",
+    "categories": [
+      "cs.LG"
+    ],
+    "abstract": "We introduce xbench, a dynamic, profession-aligned evaluation suite designed to bridge the gap between AI agent capabilities and real-world productivity. While existing benchmarks often focus on isolated technical skills, they may not accurately reflect the economic value agents deliver in professional settings. To address this, xbench targets commercially significant domains with evaluation tasks defined by industry professionals. Our framework creates metrics that strongly correlate with produ",
+    "pdf_url": "https://arxiv.org/pdf/2506.13651v1"
+  },
+  {
+    "arxiv_id": "2506.13356",
+    "title": "StoryBench: A Dynamic Benchmark for Evaluating Long-Term Memory with Multi Turns",
+    "authors": [
+      "Luanbo Wan",
+      "Weizhi Ma"
+    ],
+    "published": "2025-06-16",
+    "updated": "2025-06-16",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Long-term memory (LTM) is essential for large language models (LLMs) to achieve autonomous intelligence in complex, evolving environments. Despite increasing efforts in memory-augmented and retrieval-based architectures, there remains a lack of standardized benchmarks to systematically evaluate LLMs' long-term memory abilities. Existing benchmarks still face challenges in evaluating knowledge retention and dynamic sequential reasoning, and in their own flexibility, all of which limit their effec",
+    "pdf_url": "https://arxiv.org/pdf/2506.13356v1"
+  },
+  {
+    "arxiv_id": "2510.04851",
+    "title": "LEGOMem: Modular Procedural Memory for Multi-agent LLM Systems for Workflow Automation",
+    "authors": [
+      "Dongge Han",
+      "Camille Couturier",
+      "Daniel Madrigal Diaz",
+      "Xuchao Zhang",
+      "Victor R\u00fchle",
+      "Saravan Rajmohan"
+    ],
+    "published": "2025-10-06",
+    "updated": "2025-10-06",
+    "categories": [
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "abstract": "We introduce LEGOMem, a modular procedural memory framework for multi-agent large language model (LLM) systems in workflow automation. LEGOMem decomposes past task trajectories into reusable memory units and flexibly allocates them across orchestrators and task agents to support planning and execution. To explore the design space of memory in multi-agent systems, we use LEGOMem as a lens and conduct a systematic study of procedural memory in multi-agent systems, examining where memory should be ",
+    "pdf_url": "https://arxiv.org/pdf/2510.04851v1"
+  },
+  {
+    "arxiv_id": "2509.21212",
+    "title": "SGMem: Sentence Graph Memory for Long-Term Conversational Agents",
+    "authors": [
+      "Yaxiong Wu",
+      "Yongyue Zhang",
+      "Sheng Liang",
+      "Yong Liu"
+    ],
+    "published": "2025-09-25",
+    "updated": "2025-09-25",
+    "categories": [
+      "cs.CL",
+      "cs.IR"
+    ],
+    "abstract": "Long-term conversational agents require effective memory management to handle dialogue histories that exceed the context window of large language models (LLMs). Existing methods based on fact extraction or summarization reduce redundancy but struggle to organize and retrieve relevant information across different granularities of dialogue and generated memory. We introduce SGMem (Sentence Graph Memory), which represents dialogue as sentence-level graphs within chunked units, capturing association",
+    "pdf_url": "https://arxiv.org/pdf/2509.21212v1"
+  },
+  {
+    "arxiv_id": "2508.12379",
+    "title": "GraphCogent: Mitigating LLMs' Working Memory Constraints via Multi-Agent Collaboration in Complex Graph Understanding",
+    "authors": [
+      "Rongzheng Wang",
+      "Shuang Liang",
+      "Qizhi Chen",
+      "Yihong Huang",
+      "Muquan Li",
+      "Yizhuo Ma",
+      "Dongyang Zhang",
+      "Ke Qin",
+      "Man-Fai Leung"
+    ],
+    "published": "2025-08-17",
+    "updated": "2025-09-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Large language models (LLMs) show promising performance on small-scale graph reasoning tasks but fail when handling real-world graphs with complex queries. This phenomenon arises from LLMs' working memory constraints, which result in their inability to retain long-range graph topology over extended contexts while sustaining coherent multi-step reasoning. However, real-world graphs are often structurally complex, such as Web, Transportation, Social, and Citation networks. To address these limitat",
+    "pdf_url": "https://arxiv.org/pdf/2508.12379v2"
+  },
+  {
+    "arxiv_id": "2503.15299",
+    "title": "Inside-Out: Hidden Factual Knowledge in LLMs",
+    "authors": [
+      "Zorik Gekhman",
+      "Eyal Ben David",
+      "Hadas Orgad",
+      "Eran Ofek",
+      "Yonatan Belinkov",
+      "Idan Szpektor",
+      "Jonathan Herzig",
+      "Roi Reichart"
+    ],
+    "published": "2025-03-19",
+    "updated": "2025-08-06",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "This work presents a framework for assessing whether large language models (LLMs) encode more factual knowledge in their parameters than what they express in their outputs. While a few studies hint at this possibility, none has clearly defined or demonstrated this phenomenon. We first propose a formal definition of knowledge, quantifying it for a given question as the fraction of correct-incorrect answer pairs where the correct one is ranked higher. This gives rise to external and internal knowl",
+    "pdf_url": "https://arxiv.org/pdf/2503.15299v4"
+  },
+  {
+    "arxiv_id": "2508.19236",
+    "title": "MemoryVLA: Perceptual-Cognitive Memory in Vision-Language-Action Models for Robotic Manipulation",
+    "authors": [
+      "Hao Shi",
+      "Bin Xie",
+      "Yingfei Liu",
+      "Lin Sun",
+      "Fengrong Liu",
+      "Tiancai Wang",
+      "Erjin Zhou",
+      "Haoqiang Fan",
+      "Xiangyu Zhang",
+      "Gao Huang"
+    ],
+    "published": "2025-08-26",
+    "updated": "2026-01-30",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ],
+    "abstract": "Temporal context is essential for robotic manipulation because such tasks are inherently non-Markovian, yet mainstream VLA models typically overlook it and struggle with long-horizon, temporally dependent tasks. Cognitive science suggests that humans rely on working memory to buffer short-lived representations for immediate control, while the hippocampal system preserves verbatim episodic details and semantic gist of past experience for long-term memory. Inspired by these mechanisms, we propose ",
+    "pdf_url": "https://arxiv.org/pdf/2508.19236v2"
+  },
+  {
+    "arxiv_id": "2507.05257",
+    "title": "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
+    "authors": [
+      "Yuanzhe Hu",
+      "Yu Wang",
+      "Julian McAuley"
+    ],
+    "published": "2025-07-07",
+    "updated": "2026-03-17",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Recent benchmarks for Large Language Model (LLM) agents primarily focus on evaluating reasoning, planning, and execution capabilities, while another critical component-memory, encompassing how agents memorize, update, and retrieve long-term information-is under-evaluated due to the lack of benchmarks. We term agents with memory mechanisms as memory agents. In this paper, based on classic theories from memory science and cognitive science, we identify four core competencies essential for memory a",
+    "pdf_url": "https://arxiv.org/pdf/2507.05257v3"
+  },
+  {
+    "arxiv_id": "2502.11903",
+    "title": "MMRC: A Large-Scale Benchmark for Understanding Multimodal Large Language Model in Real-World Conversation",
+    "authors": [
+      "Haochen Xue",
+      "Feilong Tang",
+      "Ming Hu",
+      "Yexin Liu",
+      "Qidong Huang",
+      "Yulong Li",
+      "Chengzhi Liu",
+      "Zhongxing Xu",
+      "Chong Zhang",
+      "Chun-Mei Feng",
+      "Yutong Xie",
+      "Imran Razzak",
+      "Zongyuan Ge",
+      "Jionglong Su",
+      "Junjun He",
+      "Yu Qiao"
+    ],
+    "published": "2025-02-17",
+    "updated": "2025-03-08",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Recent multimodal large language models (MLLMs) have demonstrated significant potential in open-ended conversation, generating more accurate and personalized responses. However, their abilities to memorize, recall, and reason in sustained interactions within real-world scenarios remain underexplored. This paper introduces MMRC, a Multi-Modal Real-world Conversation benchmark for evaluating six core open-ended abilities of MLLMs: information extraction, multi-turn reasoning, information update, i",
+    "pdf_url": "https://arxiv.org/pdf/2502.11903v2"
+  },
+  {
+    "arxiv_id": "2511.03506",
+    "title": "HaluMem: Evaluating Hallucinations in Memory Systems of Agents",
+    "authors": [
+      "Ding Chen",
+      "Simin Niu",
+      "Kehang Li",
+      "Peng Liu",
+      "Xiangping Zheng",
+      "Bo Tang",
+      "Xinchi Li",
+      "Feiyu Xiong",
+      "Zhiyu Li"
+    ],
+    "published": "2025-11-05",
+    "updated": "2026-01-05",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Memory systems are key components that enable AI systems such as LLMs and AI agents to achieve long-term learning and sustained interaction. However, during memory storage and retrieval, these systems frequently exhibit memory hallucinations, including fabrication, errors, conflicts, and omissions. Existing evaluations of memory hallucinations are primarily end-to-end question answering, which makes it difficult to localize the operational stage within the memory system where hallucinations aris",
+    "pdf_url": "https://arxiv.org/pdf/2511.03506v3"
+  },
+  {
+    "arxiv_id": "2505.11942",
+    "title": "LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners",
+    "authors": [
+      "Junhao Zheng",
+      "Xidi Cai",
+      "Qiuke Li",
+      "Duzhen Zhang",
+      "ZhongZhi Li",
+      "Yingying Zhang",
+      "Le Song",
+      "Qianli Ma"
+    ],
+    "published": "2025-05-17",
+    "updated": "2025-05-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Lifelong learning is essential for intelligent agents operating in dynamic environments. Current large language model (LLM)-based agents, however, remain stateless and unable to accumulate or transfer knowledge over time. Existing benchmarks treat agents as static systems and fail to evaluate lifelong learning capabilities. We present LifelongAgentBench, the first unified benchmark designed to systematically assess the lifelong learning ability of LLM agents. It provides skill-grounded, interdep",
+    "pdf_url": "https://arxiv.org/pdf/2505.11942v3"
+  },
+  {
+    "arxiv_id": "2503.08026",
+    "title": "In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents",
+    "authors": [
+      "Zhen Tan",
+      "Jun Yan",
+      "I-Hung Hsu",
+      "Rujun Han",
+      "Zifeng Wang",
+      "Long T. Le",
+      "Yiwen Song",
+      "Yanfei Chen",
+      "Hamid Palangi",
+      "George Lee",
+      "Anand Iyer",
+      "Tianlong Chen",
+      "Huan Liu",
+      "Chen-Yu Lee",
+      "Tomas Pfister"
+    ],
+    "published": "2025-03-11",
+    "updated": "2025-07-28",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Large Language Models (LLMs) have made significant progress in open-ended dialogue, yet their inability to retain and retrieve relevant information from long-term interactions limits their effectiveness in applications requiring sustained personalization. External memory mechanisms have been proposed to address this limitation, enabling LLMs to maintain conversational continuity. However, existing approaches struggle with two key challenges. First, rigid memory granularity fails to capture the n",
+    "pdf_url": "https://arxiv.org/pdf/2503.08026v2"
+  },
+  {
+    "arxiv_id": "2508.04903",
+    "title": "RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory",
+    "authors": [
+      "Jun Liu",
+      "Zhenglun Kong",
+      "Changdi Yang",
+      "Fan Yang",
+      "Tianqi Li",
+      "Peiyan Dong",
+      "Joannah Nanjekye",
+      "Hao Tang",
+      "Geng Yuan",
+      "Wei Niu",
+      "Wenbin Zhang",
+      "Pu Zhao",
+      "Xue Lin",
+      "Dong Huang",
+      "Yanzhi Wang"
+    ],
+    "published": "2025-08-06",
+    "updated": "2025-08-12",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.MA"
+    ],
+    "abstract": "Multi-agent large language model (LLM) systems have shown strong potential in complex reasoning and collaborative decision-making tasks. However, most existing coordination schemes rely on static or full-context routing strategies, which lead to excessive token consumption, redundant memory exposure, and limited adaptability across interaction rounds. We introduce RCR-Router, a modular and role-aware context routing framework designed to enable efficient, adaptive collaboration in multi-agent LL",
+    "pdf_url": "https://arxiv.org/pdf/2508.04903v3"
+  },
+  {
+    "arxiv_id": "2503.03803",
+    "title": "EgoLife: Towards Egocentric Life Assistant",
+    "authors": [
+      "Jingkang Yang",
+      "Shuai Liu",
+      "Hongming Guo",
+      "Yuhao Dong",
+      "Xiamengwei Zhang",
+      "Sicheng Zhang",
+      "Pengyun Wang",
+      "Zitang Zhou",
+      "Binzhu Xie",
+      "Ziyue Wang",
+      "Bei Ouyang",
+      "Zhengyu Lin",
+      "Marco Cominelli",
+      "Zhongang Cai",
+      "Yuanhan Zhang",
+      "Peiyuan Zhang",
+      "Fangzhou Hong",
+      "Joerg Widmer",
+      "Francesco Gringoli",
+      "Lei Yang",
+      "Bo Li",
+      "Ziwei Liu"
+    ],
+    "published": "2025-03-05",
+    "updated": "2026-02-09",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "We introduce EgoLife, a project to develop an egocentric life assistant that accompanies and enhances personal efficiency through AI-powered wearable glasses. To lay the foundation for this assistant, we conducted a comprehensive data collection study where six participants lived together for one week, continuously recording their daily activities - including discussions, shopping, cooking, socializing, and entertainment - using AI glasses for multimodal egocentric video capture, along with sync",
+    "pdf_url": "https://arxiv.org/pdf/2503.03803v3"
+  },
+  {
+    "arxiv_id": "2510.13614",
+    "title": "MemoTime: Memory-Augmented Temporal Knowledge Graph Enhanced Large Language Model Reasoning",
+    "authors": [
+      "Xingyu Tan",
+      "Xiaoyang Wang",
+      "Qing Liu",
+      "Xiwei Xu",
+      "Xin Yuan",
+      "Liming Zhu",
+      "Wenjie Zhang"
+    ],
+    "published": "2025-10-15",
+    "updated": "2026-02-23",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Large Language Models (LLMs) have achieved impressive reasoning abilities, but struggle with temporal understanding, especially when questions involve multiple entities, compound operators, and evolving event sequences. Temporal Knowledge Graphs (TKGs), which capture vast amounts of temporal facts in a structured format, offer a reliable source for temporal reasoning. However, existing TKG-based LLM reasoning methods still struggle with four major challenges: maintaining temporal faithfulness in",
+    "pdf_url": "https://arxiv.org/pdf/2510.13614v3"
+  },
+  {
+    "arxiv_id": "2508.16153",
+    "title": "Memento: Fine-tuning LLM Agents without Fine-tuning LLMs",
+    "authors": [
+      "Huichi Zhou",
+      "Yihang Chen",
+      "Siyuan Guo",
+      "Xue Yan",
+      "Kin Hei Lee",
+      "Zihan Wang",
+      "Ka Yiu Lee",
+      "Guchun Zhang",
+      "Kun Shao",
+      "Linyi Yang",
+      "Jun Wang"
+    ],
+    "published": "2025-08-22",
+    "updated": "2025-08-25",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "abstract": "In this paper, we introduce a novel learning paradigm for Adaptive Large Language Model (LLM) agents that eliminates the need for fine-tuning the underlying LLMs. Existing approaches are often either rigid, relying on static, handcrafted reflection workflows, or computationally intensive, requiring gradient updates of LLM model parameters. In contrast, our method enables low-cost continual adaptation via memory-based online reinforcement learning. We formalise this as a Memory-augmented Markov D",
+    "pdf_url": "https://arxiv.org/pdf/2508.16153v2"
+  },
+  {
+    "arxiv_id": "2510.08601",
+    "title": "Mnemosyne: An Unsupervised, Human-Inspired Long-Term Memory Architecture for Edge-Based LLMs",
+    "authors": [
+      "Aneesh Jonelagadda",
+      "Christina Hahn",
+      "Haoze Zheng",
+      "Salvatore Penachio"
+    ],
+    "published": "2025-10-07",
+    "updated": "2025-10-07",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG",
+      "cs.MA"
+    ],
+    "abstract": "Long-term memory is essential for natural, realistic dialogue. However, current large language model (LLM) memory systems rely on either brute-force context expansion or static retrieval pipelines that fail on edge-constrained devices. We introduce Mnemosyne, an unsupervised, human-inspired long-term memory architecture designed for edge-based LLMs. Our approach uses graph-structured storage, modular substance and redundancy filters, memory committing and pruning mechanisms, and probabilistic re",
+    "pdf_url": "https://arxiv.org/pdf/2510.08601v1"
+  },
+  {
+    "arxiv_id": "2510.17281",
+    "title": "MemoryBench: A Benchmark for Memory and Continual Learning in LLM Systems",
+    "authors": [
+      "Qingyao Ai",
+      "Yichen Tang",
+      "Changyue Wang",
+      "Jianming Long",
+      "Weihang Su",
+      "Yiqun Liu"
+    ],
+    "published": "2025-10-20",
+    "updated": "2026-05-09",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "abstract": "Scaling up data, parameters, and test-time computation has been the mainstream methods to improve LLM systems (LLMsys), but their upper bounds are almost reached due to the gradual depletion of high-quality data and marginal gains obtained from larger computational resource consumption. Inspired by the abilities of human and traditional AI systems in learning from practice, constructing memory and continual learning frameworks for LLMsys has become an important and popular research direction in ",
+    "pdf_url": "https://arxiv.org/pdf/2510.17281v6"
+  },
+  {
+    "arxiv_id": "2502.05453",
+    "title": "LLM-Powered Decentralized Generative Agents with Adaptive Hierarchical Knowledge Graph for Cooperative Planning",
+    "authors": [
+      "Hanqing Yang",
+      "Jingdi Chen",
+      "Marie Siew",
+      "Tania Lorido-Botran",
+      "Carlee Joe-Wong"
+    ],
+    "published": "2025-02-08",
+    "updated": "2025-02-08",
+    "categories": [
+      "cs.AI",
+      "cs.MA"
+    ],
+    "abstract": "Developing intelligent agents for long-term cooperation in dynamic open-world scenarios is a major challenge in multi-agent systems. Traditional Multi-agent Reinforcement Learning (MARL) frameworks like centralized training decentralized execution (CTDE) struggle with scalability and flexibility. They require centralized long-term planning, which is difficult without custom reward functions, and face challenges in processing multi-modal data. CTDE approaches also assume fixed cooperation strateg",
+    "pdf_url": "https://arxiv.org/pdf/2502.05453v1"
+  },
+  {
+    "arxiv_id": "2507.22925",
+    "title": "Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents",
+    "authors": [
+      "Haoran Sun",
+      "Shaoning Zeng"
+    ],
+    "published": "2025-07-23",
+    "updated": "2025-07-23",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Long-term memory is one of the key factors influencing the reasoning capabilities of Large Language Model Agents (LLM Agents). Incorporating a memory mechanism that effectively integrates past interactions can significantly enhance decision-making and contextual coherence of LLM Agents. While recent works have made progress in memory storage and retrieval, such as encoding memory into dense vectors for similarity-based search or organizing knowledge in the form of graph, these approaches often f",
+    "pdf_url": "https://arxiv.org/pdf/2507.22925v1"
+  },
+  {
+    "arxiv_id": "2506.15841",
+    "title": "MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents",
+    "authors": [
+      "Zijian Zhou",
+      "Ao Qu",
+      "Zhaoxuan Wu",
+      "Sunghwan Kim",
+      "Alok Prakash",
+      "Daniela Rus",
+      "Jinhua Zhao",
+      "Bryan Kian Hsiang Low",
+      "Paul Pu Liang"
+    ],
+    "published": "2025-06-18",
+    "updated": "2025-07-17",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "abstract": "Modern language agents must operate over long-horizon, multi-turn interactions, where they retrieve external information, adapt to observations, and answer interdependent queries. Yet, most LLM systems rely on full-context prompting, appending all past turns regardless of their relevance. This leads to unbounded memory growth, increased computational costs, and degraded reasoning performance on out-of-distribution input lengths. We introduce MEM1, an end-to-end reinforcement learning framework t",
+    "pdf_url": "https://arxiv.org/pdf/2506.15841v2"
+  },
+  {
+    "arxiv_id": "2506.21605",
+    "title": "MemBench: Towards More Comprehensive Evaluation on the Memory of LLM-based Agents",
+    "authors": [
+      "Haoran Tan",
+      "Zeyu Zhang",
+      "Chen Ma",
+      "Xu Chen",
+      "Quanyu Dai",
+      "Zhenhua Dong"
+    ],
+    "published": "2025-06-20",
+    "updated": "2025-06-20",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Recent works have highlighted the significance of memory mechanisms in LLM-based agents, which enable them to store observed information and adapt to dynamic environments. However, evaluating their memory capabilities still remains challenges. Previous evaluations are commonly limited by the diversity of memory levels and interactive scenarios. They also lack comprehensive metrics to reflect the memory capabilities from multiple aspects. To address these problems, in this paper, we construct a m",
+    "pdf_url": "https://arxiv.org/pdf/2506.21605v1"
+  },
+  {
+    "arxiv_id": "2508.09736",
+    "title": "Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory",
+    "authors": [
+      "Lin Long",
+      "Yichen He",
+      "Wentao Ye",
+      "Yiyuan Pan",
+      "Yuan Lin",
+      "Hang Li",
+      "Junbo Zhao",
+      "Wei Li"
+    ],
+    "published": "2025-08-13",
+    "updated": "2025-10-09",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "We introduce M3-Agent, a novel multimodal agent framework equipped with long-term memory. Like humans, M3-Agent can process real-time visual and auditory inputs to build and update episodic and semantic memories, gradually accumulating world knowledge. Its memory is organized in an entity-centric, multimodal manner, enabling deeper and more consistent understanding of the environment. Given an instruction, M3-Agent autonomously performs multi-turn reasoning and retrieves relevant memories to com",
+    "pdf_url": "https://arxiv.org/pdf/2508.09736v4"
+  },
+  {
+    "arxiv_id": "2509.24704",
+    "title": "MemGen: Weaving Generative Latent Memory for Self-Evolving Agents",
+    "authors": [
+      "Guibin Zhang",
+      "Muxin Fu",
+      "Shuicheng Yan"
+    ],
+    "published": "2025-09-29",
+    "updated": "2025-10-12",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Agent memory shapes how Large Language Model (LLM)-powered agents, akin to the human brain, progressively refine themselves through environment interactions. Existing paradigms remain constrained: parametric memory forcibly adjusts model parameters, and retrieval-based memory externalizes experience into structured databases, yet neither captures the fluid interweaving of reasoning and memory that underlies human cognition. To address this gap, we propose MemGen, a dynamic generative memory fram",
+    "pdf_url": "https://arxiv.org/pdf/2509.24704v2"
+  },
+  {
+    "arxiv_id": "2510.10397",
+    "title": "AssoMem: Scalable Memory QA with Multi-Signal Associative Retrieval",
+    "authors": [
+      "Kai Zhang",
+      "Xinyuan Zhang",
+      "Ejaz Ahmed",
+      "Hongda Jiang",
+      "Caleb Kumar",
+      "Kai Sun",
+      "Zhaojiang Lin",
+      "Sanat Sharma",
+      "Shereen Oraby",
+      "Aaron Colak",
+      "Ahmed Aly",
+      "Anuj Kumar",
+      "Xiaozhong Liu",
+      "Xin Luna Dong"
+    ],
+    "published": "2025-10-12",
+    "updated": "2025-10-12",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Accurate recall from large scale memories remains a core challenge for memory augmented AI assistants performing question answering (QA), especially in similarity dense scenarios where existing methods mainly rely on semantic distance to the query for retrieval. Inspired by how humans link information associatively, we propose AssoMem, a novel framework constructing an associative memory graph that anchors dialogue utterances to automatically extracted clues. This structure provides a rich organ",
+    "pdf_url": "https://arxiv.org/pdf/2510.10397v1"
+  },
+  {
+    "arxiv_id": "2503.21322",
+    "title": "HyperGraphRAG: Retrieval-Augmented Generation via Hypergraph-Structured Knowledge Representation",
+    "authors": [
+      "Haoran Luo",
+      "Haihong E",
+      "Guanting Chen",
+      "Yandan Zheng",
+      "Xiaobao Wu",
+      "Yikai Guo",
+      "Qika Lin",
+      "Yu Feng",
+      "Zemin Kuang",
+      "Meina Song",
+      "Yifan Zhu",
+      "Luu Anh Tuan"
+    ],
+    "published": "2025-03-27",
+    "updated": "2025-10-21",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Standard Retrieval-Augmented Generation (RAG) relies on chunk-based retrieval, whereas GraphRAG advances this approach by graph-based knowledge representation. However, existing graph-based RAG approaches are constrained by binary relations, as each edge in an ordinary graph connects only two entities, limiting their ability to represent the n-ary relations (n >= 2) in real-world knowledge. In this work, we propose HyperGraphRAG, a novel hypergraph-based RAG method that represents n-ary relation",
+    "pdf_url": "https://arxiv.org/pdf/2503.21322v3"
+  },
+  {
+    "arxiv_id": "2502.18125",
+    "title": "HyperG: Hypergraph-Enhanced LLMs for Structured Knowledge",
+    "authors": [
+      "Sirui Huang",
+      "Hanqian Li",
+      "Yanggan Gu",
+      "Xuming Hu",
+      "Qing Li",
+      "Guandong Xu"
+    ],
+    "published": "2025-02-25",
+    "updated": "2025-02-25",
+    "categories": [
+      "cs.IR",
+      "cs.CL"
+    ],
+    "abstract": "Given that substantial amounts of domain-specific knowledge are stored in structured formats, such as web data organized through HTML, Large Language Models (LLMs) are expected to fully comprehend this structured information to broaden their applications in various real-world downstream tasks. Current approaches for applying LLMs to structured data fall into two main categories: serialization-based and operation-based methods. Both approaches, whether relying on serialization or using SQL-like o",
+    "pdf_url": "https://arxiv.org/pdf/2502.18125v1"
+  },
+  {
+    "arxiv_id": "2502.09597",
+    "title": "Do LLMs Recognize Your Preferences? Evaluating Personalized Preference Following in LLMs",
+    "authors": [
+      "Siyan Zhao",
+      "Mingyi Hong",
+      "Yang Liu",
+      "Devamanyu Hazarika",
+      "Kaixiang Lin"
+    ],
+    "published": "2025-02-13",
+    "updated": "2025-02-13",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "abstract": "Large Language Models (LLMs) are increasingly used as chatbots, yet their ability to personalize responses to user preferences remains limited. We introduce PrefEval, a benchmark for evaluating LLMs' ability to infer, memorize and adhere to user preferences in a long-context conversational setting. PrefEval comprises 3,000 manually curated user preference and query pairs spanning 20 topics. PrefEval contains user personalization or preference information in both explicit and implicit forms, and ",
+    "pdf_url": "https://arxiv.org/pdf/2502.09597v1"
+  },
+  {
+    "arxiv_id": "2505.18279",
+    "title": "Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control",
+    "authors": [
+      "Alireza Rezazadeh",
+      "Zichao Li",
+      "Ange Lou",
+      "Yuying Zhao",
+      "Wei Wei",
+      "Yujia Bao"
+    ],
+    "published": "2025-05-23",
+    "updated": "2025-05-23",
+    "categories": [
+      "cs.MA",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "abstract": "Complex tasks are increasingly delegated to ensembles of specialized LLM-based agents that reason, communicate, and coordinate actions-both among themselves and through interactions with external tools, APIs, and databases. While persistent memory has been shown to enhance single-agent performance, most approaches assume a monolithic, single-user context-overlooking the benefits and challenges of knowledge transfer across users under dynamic, asymmetric permissions. We introduce Collaborative Me",
+    "pdf_url": "https://arxiv.org/pdf/2505.18279v1"
+  },
+  {
+    "arxiv_id": "2503.05193",
+    "title": "Memory-augmented Query Reconstruction for LLM-based Knowledge Graph Reasoning",
+    "authors": [
+      "Mufan Xu",
+      "Gewen Liang",
+      "Kehai Chen",
+      "Wei Wang",
+      "Xun Zhou",
+      "Muyun Yang",
+      "Tiejun Zhao",
+      "Min Zhang"
+    ],
+    "published": "2025-03-07",
+    "updated": "2025-03-07",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Large language models (LLMs) have achieved remarkable performance on knowledge graph question answering (KGQA) tasks by planning and interacting with knowledge graphs. However, existing methods often confuse tool utilization with knowledge reasoning, harming readability of model outputs and giving rise to hallucinatory tool invocations, which hinder the advancement of KGQA. To address this issue, we propose Memory-augmented Query Reconstruction for LLM-based Knowledge Graph Reasoning (MemQ) to d",
+    "pdf_url": "https://arxiv.org/pdf/2503.05193v1"
+  },
+  {
+    "arxiv_id": "2503.05150",
+    "title": "Interpersonal Memory Matters: A New Task for Proactive Dialogue Utilizing Conversational History",
+    "authors": [
+      "Bowen Wu",
+      "Wenqing Wang",
+      "Haoran Li",
+      "Ying Li",
+      "Jingsong Yu",
+      "Baoxun Wang"
+    ],
+    "published": "2025-03-07",
+    "updated": "2025-03-07",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Proactive dialogue systems aim to empower chatbots with the capability of leading conversations towards specific targets, thereby enhancing user engagement and service autonomy. Existing systems typically target pre-defined keywords or entities, neglecting user attributes and preferences implicit in dialogue history, hindering the development of long-term user intimacy. To address these challenges, we take a radical step towards building a more human-like conversational agent by integrating proa",
+    "pdf_url": "https://arxiv.org/pdf/2503.05150v1"
+  },
+  {
+    "arxiv_id": "2511.06449",
+    "title": "FLEX: Continuous Agent Evolution via Forward Learning from Experience",
+    "authors": [
+      "Zhicheng Cai",
+      "Xinyuan Guo",
+      "Yu Pei",
+      "Jiangtao Feng",
+      "Jinsong Su",
+      "Jiangjie Chen",
+      "Ya-Qin Zhang",
+      "Wei-Ying Ma",
+      "Mingxuan Wang",
+      "Hao Zhou"
+    ],
+    "published": "2025-11-09",
+    "updated": "2025-12-08",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "abstract": "Autonomous agents driven by Large Language Models (LLMs) have revolutionized reasoning and problem-solving but remain static after training, unable to grow with experience as intelligent beings do during deployment. We introduce Forward Learning with EXperience (FLEX), a gradient-free learning paradigm that enables LLM agents to continuously evolve through accumulated experience. Specifically, FLEX cultivates scalable and inheritable evolution by constructing a structured experience library thro",
+    "pdf_url": "https://arxiv.org/pdf/2511.06449v2"
+  },
+  {
+    "arxiv_id": "2504.08758",
+    "title": "Hyper-RAG: Combating LLM Hallucinations using Hypergraph-Driven Retrieval-Augmented Generation",
+    "authors": [
+      "Yifan Feng",
+      "Hao Hu",
+      "Xingliang Hou",
+      "Shiquan Liu",
+      "Shihui Ying",
+      "Shaoyi Du",
+      "Han Hu",
+      "Yue Gao"
+    ],
+    "published": "2025-03-30",
+    "updated": "2025-03-30",
+    "categories": [
+      "cs.IR",
+      "cs.AI"
+    ],
+    "abstract": "Large language models (LLMs) have transformed various sectors, including education, finance, and medicine, by enhancing content generation and decision-making processes. However, their integration into the medical field is cautious due to hallucinations, instances where generated content deviates from factual accuracy, potentially leading to adverse outcomes. To address this, we introduce Hyper-RAG, a hypergraph-driven Retrieval-Augmented Generation method that comprehensively captures both pair",
+    "pdf_url": "https://arxiv.org/pdf/2504.08758v1"
+  },
+  {
+    "arxiv_id": "2508.03341",
+    "title": "What Deserves Memory: Adaptive Memory Distillation for LLM Agents",
+    "authors": [
+      "Wenquan Ma",
+      "Jiayan Nan",
+      "Wenlong Wu",
+      "Yize Chen"
+    ],
+    "published": "2025-08-05",
+    "updated": "2026-04-16",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Memory systems for LLM agents struggle to determine what information deserves retention. Existing approaches rely on predefined heuristics such as importance scores, emotional tags, or factual templates, encoding designer intuition rather than learning from the data itself. Inspired by cognitive ideas, we propose NEMORI, an adaptive memory distillation framework that casts the assessment of experience's future utility as a matter of predictability. Specifically, NEMORI comprises two cascading mo",
+    "pdf_url": "https://arxiv.org/pdf/2508.03341v4"
+  },
+  {
+    "arxiv_id": "2511.13593",
+    "title": "O-Mem: Omni Memory System for Personalized, Long Horizon, Self-Evolving Agents",
+    "authors": [
+      "Piaohong Wang",
+      "Motong Tian",
+      "Jiaxian Li",
+      "Yuan Liang",
+      "Yuqing Wang",
+      "Qianben Chen",
+      "Tiannan Wang",
+      "Zhicong Lu",
+      "Jiawei Ma",
+      "Yuchen Eleanor Jiang",
+      "Wangchunshu Zhou"
+    ],
+    "published": "2025-11-17",
+    "updated": "2025-12-10",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Recent advancements in LLM-powered agents have demonstrated significant potential in generating human-like responses; however, they continue to face challenges in maintaining long-term interactions within complex environments, primarily due to limitations in contextual consistency and dynamic personalization. Existing memory systems often depend on semantic grouping prior to retrieval, which can overlook semantically irrelevant yet critical user information and introduce retrieval noise. In this",
+    "pdf_url": "https://arxiv.org/pdf/2511.13593v3"
+  },
+  {
+    "arxiv_id": "2511.12960",
+    "title": "ENGRAM: Effective, Lightweight Memory Orchestration for Conversational Agents",
+    "authors": [
+      "Daivik Patel",
+      "Shrenik Patel"
+    ],
+    "published": "2025-11-17",
+    "updated": "2026-02-03",
+    "categories": [
+      "cs.MA"
+    ],
+    "abstract": "Large language models (LLMs) deployed in user-facing applications require long-horizon consistency: the ability to remember prior interactions, respect user preferences, and ground reasoning in past events. However, contemporary memory systems often adopt complex architectures such as knowledge graphs, multi-stage retrieval pipelines, and OS-style schedulers, which introduce engineering complexity and reproducibility challenges. We present ENGRAM, a lightweight memory system that organizes conve",
+    "pdf_url": "https://arxiv.org/pdf/2511.12960v2"
+  },
+  {
+    "arxiv_id": "2602.05665",
+    "title": "Graph-based Agent Memory: Taxonomy, Techniques, and Applications",
+    "authors": [
+      "Chang Yang",
+      "Chuang Zhou",
+      "Yilin Xiao",
+      "Su Dong",
+      "Luyao Zhuang",
+      "Yujing Zhang",
+      "Zhu Wang",
+      "Zijin Hong",
+      "Zheng Yuan",
+      "Zhishang Xiang",
+      "Shengyuan Chen",
+      "Huachi Zhou",
+      "Qinggang Zhang",
+      "Ninghao Liu",
+      "Jinsong Su",
+      "Xinrun Wang",
+      "Yi Chang",
+      "Xiao Huang"
+    ],
+    "published": "2026-02-05",
+    "updated": "2026-02-05",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Memory emerges as the core module in the Large Language Model (LLM)-based agents for long-horizon complex tasks (e.g., multi-turn dialogue, game playing, scientific discovery), where memory can enable knowledge accumulation, iterative reasoning and self-evolution. Among diverse paradigms, graph stands out as a powerful structure for agent memory due to the intrinsic capabilities to model relational dependencies, organize hierarchical information, and support efficient retrieval. This survey pres",
+    "pdf_url": "https://arxiv.org/pdf/2602.05665v1"
+  },
+  {
+    "arxiv_id": "2511.20857",
+    "title": "Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory",
+    "authors": [
+      "Tianxin Wei",
+      "Noveen Sachdeva",
+      "Benjamin Coleman",
+      "Zhankui He",
+      "Yuanchen Bei",
+      "Xuying Ning",
+      "Mengting Ai",
+      "Yunzhe Li",
+      "Jingrui He",
+      "Ed H. Chi",
+      "Chi Wang",
+      "Shuo Chen",
+      "Fernando Pereira",
+      "Wang-Cheng Kang",
+      "Derek Zhiyuan Cheng"
+    ],
+    "published": "2025-11-25",
+    "updated": "2025-11-25",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Statefulness is essential for large language model (LLM) agents to perform long-term planning and problem-solving. This makes memory a critical component, yet its management and evolution remain largely underexplored. Existing evaluations mostly focus on static conversational settings, where memory is passively retrieved from dialogue to answer queries, overlooking the dynamic ability to accumulate and reuse experience across evolving task streams. In real-world environments such as interactive ",
+    "pdf_url": "https://arxiv.org/pdf/2511.20857v1"
+  },
+  {
+    "arxiv_id": "2601.08160",
+    "title": "SwiftMem: Fast Agentic Memory via Query-aware Indexing",
+    "authors": [
+      "Anxin Tian",
+      "Yiming Li",
+      "Xing Li",
+      "Hui-Ling Zhen",
+      "Lei Chen",
+      "Xianzhi Yu",
+      "Zhenhua Dong",
+      "Mingxuan Yuan"
+    ],
+    "published": "2026-01-13",
+    "updated": "2026-01-13",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Agentic memory systems have become critical for enabling LLM agents to maintain long-term context and retrieve relevant information efficiently. However, existing memory frameworks suffer from a fundamental limitation: they perform exhaustive retrieval across the entire storage layer regardless of query characteristics. This brute-force approach creates severe latency bottlenecks as memory grows, hindering real-time agent interactions. We propose SwiftMem, a query-aware agentic memory system tha",
+    "pdf_url": "https://arxiv.org/pdf/2601.08160v1"
+  },
+  {
+    "arxiv_id": "2512.18746",
+    "title": "MemEvolve: Meta-Evolution of Agent Memory Systems",
+    "authors": [
+      "Guibin Zhang",
+      "Haotian Ren",
+      "Chong Zhan",
+      "Zhenhong Zhou",
+      "Junhao Wang",
+      "He Zhu",
+      "Wangchunshu Zhou",
+      "Shuicheng Yan"
+    ],
+    "published": "2025-12-21",
+    "updated": "2025-12-21",
+    "categories": [
+      "cs.CL",
+      "cs.MA"
+    ],
+    "abstract": "Self-evolving memory systems are unprecedentedly reshaping the evolutionary paradigm of large language model (LLM)-based agents. Prior work has predominantly relied on manually engineered memory architectures to store trajectories, distill experience, and synthesize reusable tools, enabling agents to evolve on the fly within environment interactions. However, this paradigm is fundamentally constrained by the staticity of the memory system itself: while memory facilitates agent-level evolving, th",
+    "pdf_url": "https://arxiv.org/pdf/2512.18746v1"
+  },
+  {
+    "arxiv_id": "2512.13564",
+    "title": "Memory in the Age of AI Agents",
+    "authors": [
+      "Yuyang Hu",
+      "Shichun Liu",
+      "Yanwei Yue",
+      "Guibin Zhang",
+      "Boyang Liu",
+      "Fangyi Zhu",
+      "Jiahang Lin",
+      "Honglin Guo",
+      "Shihan Dou",
+      "Zhiheng Xi",
+      "Senjie Jin",
+      "Jiejun Tan",
+      "Yanbin Yin",
+      "Jiongnan Liu",
+      "Zeyu Zhang",
+      "Zhongxiang Sun",
+      "Yutao Zhu",
+      "Hao Sun",
+      "Boci Peng",
+      "Zhenrong Cheng",
+      "Xuanbo Fan",
+      "Jiaxin Guo",
+      "Xinlei Yu",
+      "Zhenhong Zhou",
+      "Zewen Hu",
+      "Jiahao Huo",
+      "Junhao Wang",
+      "Yuwei Niu",
+      "Yu Wang",
+      "Zhenfei Yin",
+      "Xiaobin Hu",
+      "Yue Liao",
+      "Qiankun Li",
+      "Kun Wang",
+      "Wangchunshu Zhou",
+      "Yixin Liu",
+      "Dawei Cheng",
+      "Qi Zhang",
+      "Tao Gui",
+      "Shirui Pan",
+      "Yan Zhang",
+      "Philip Torr",
+      "Zhicheng Dou",
+      "Ji-Rong Wen",
+      "Xuanjing Huang",
+      "Yu-Gang Jiang",
+      "Shuicheng Yan"
+    ],
+    "published": "2025-12-15",
+    "updated": "2026-01-13",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Memory has emerged, and will continue to remain, a core capability of foundation model-based agents. As research on agent memory rapidly expands and attracts unprecedented attention, the field has also become increasingly fragmented. Existing works that fall under the umbrella of agent memory often differ substantially in their motivations, implementations, and evaluation protocols, while the proliferation of loosely defined memory terminologies has further obscured conceptual clarity. Tradition",
+    "pdf_url": "https://arxiv.org/pdf/2512.13564v2"
+  },
+  {
+    "arxiv_id": "2511.17467",
+    "title": "PersonaAgent with GraphRAG: Community-Aware Knowledge Graphs for Personalized LLM",
+    "authors": [
+      "Siqi Liang",
+      "Yudi Zhang",
+      "Yue Guo"
+    ],
+    "published": "2025-11-21",
+    "updated": "2025-12-02",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "abstract": "We propose a novel framework for persona-based language model system, motivated by the need for personalized AI agents that adapt to individual user preferences. In our approach, the agent embodies the user's \"persona\" (e.g. user profile or taste) and is powered by a large language model (LLM). To enable the agent to leverage rich contextual information, we introduce a Knowledge-Graph-enhanced Retrieval-Augmented Generation (Graph RAG) mechanism that constructs an LLM-derived graph index of rele",
+    "pdf_url": "https://arxiv.org/pdf/2511.17467v2"
+  },
+  {
+    "arxiv_id": "2511.10395",
+    "title": "AgentEvolver: Towards Efficient Self-Evolving Agent System",
+    "authors": [
+      "Yunpeng Zhai",
+      "Shuchang Tao",
+      "Cheng Chen",
+      "Anni Zou",
+      "Ziqian Chen",
+      "Qingxu Fu",
+      "Shinji Mai",
+      "Li Yu",
+      "Jiaji Deng",
+      "Zouying Cao",
+      "Zhaoyang Liu",
+      "Bolin Ding",
+      "Jingren Zhou"
+    ],
+    "published": "2025-11-13",
+    "updated": "2025-11-13",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Autonomous agents powered by large language models (LLMs) have the potential to significantly enhance human productivity by reasoning, using tools, and executing complex tasks in diverse environments. However, current approaches to developing such agents remain costly and inefficient, as they typically require manually constructed task datasets and reinforcement learning (RL) pipelines with extensive random exploration. These limitations lead to prohibitively high data-construction costs, low ex",
+    "pdf_url": "https://arxiv.org/pdf/2511.10395v1"
+  },
+  {
+    "arxiv_id": "2601.03236",
+    "title": "MAGMA: A Multi-Graph based Agentic Memory Architecture for AI Agents",
+    "authors": [
+      "Dongming Jiang",
+      "Yi Li",
+      "Guanpeng Li",
+      "Bingzhe Li"
+    ],
+    "published": "2026-01-06",
+    "updated": "2026-04-16",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Memory-Augmented Generation (MAG) extends Large Language Models with external memory to support long-context reasoning, but existing approaches largely rely on semantic similarity over monolithic memory stores, entangling temporal, causal, and entity information. This design limits interpretability and alignment between query intent and retrieved evidence, leading to suboptimal reasoning accuracy. In this paper, we propose MAGMA, a multi-graph agentic memory architecture that represents each mem",
+    "pdf_url": "https://arxiv.org/pdf/2601.03236v2"
+  },
+  {
+    "arxiv_id": "2604.08256",
+    "title": "HyperMem: Hypergraph Memory for Long-Term Conversations",
+    "authors": [
+      "Juwei Yue",
+      "Chuanrui Hu",
+      "Jiawei Sheng",
+      "Zuyi Zhou",
+      "Wenyuan Zhang",
+      "Tingwen Liu",
+      "Li Guo",
+      "Yafeng Deng"
+    ],
+    "published": "2026-04-09",
+    "updated": "2026-04-10",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Long-term memory is essential for conversational agents to maintain coherence, track persistent tasks, and provide personalized interactions across extended dialogues. However, existing approaches as Retrieval-Augmented Generation (RAG) and graph-based memory mostly rely on pairwise relations, which can hardly capture high-order associations, i.e., joint dependencies among multiple elements, causing fragmented retrieval. To this end, we propose HyperMem, a hypergraph-based hierarchical memory ar",
+    "pdf_url": "https://arxiv.org/pdf/2604.08256v2"
+  },
+  {
+    "arxiv_id": "2601.04463",
+    "title": "Beyond Static Summarization: Proactive Memory Extraction for LLM Agents",
+    "authors": [
+      "Chengyuan Yang",
+      "Zequn Sun",
+      "Wei Wei",
+      "Wei Hu"
+    ],
+    "published": "2026-01-08",
+    "updated": "2026-01-08",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Memory management is vital for LLM agents to handle long-term interaction and personalization. Most research focuses on how to organize and use memory summary, but often overlooks the initial memory extraction stage. In this paper, we argue that existing summary-based methods have two major limitations based on the recurrent processing theory. First, summarization is \"ahead-of-time\", acting as a blind \"feed-forward\" process that misses important details because it doesn't know future tasks. Seco",
+    "pdf_url": "https://arxiv.org/pdf/2601.04463v1"
+  },
+  {
+    "arxiv_id": "2601.06966",
+    "title": "RealMem: Benchmarking LLMs in Real-World Memory-Driven Interaction",
+    "authors": [
+      "Haonan Bian",
+      "Zhiyuan Yao",
+      "Sen Hu",
+      "Zishan Xu",
+      "Shaolei Zhang",
+      "Yifu Guo",
+      "Ziliang Yang",
+      "Xueran Han",
+      "Huacan Wang",
+      "Ronghao Chen"
+    ],
+    "published": "2026-01-11",
+    "updated": "2026-01-11",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "As Large Language Models (LLMs) evolve from static dialogue interfaces to autonomous general agents, effective memory is paramount to ensuring long-term consistency. However, existing benchmarks primarily focus on casual conversation or task-oriented dialogue, failing to capture **\"long-term project-oriented\"** interactions where agents must track evolving goals.   To bridge this gap, we introduce **RealMem**, the first benchmark grounded in realistic project scenarios. RealMem comprises over 2,",
+    "pdf_url": "https://arxiv.org/pdf/2601.06966v1"
+  },
+  {
+    "arxiv_id": "2511.07800",
+    "title": "From Experience to Strategy: Empowering LLM Agents with Trainable Graph Memory",
+    "authors": [
+      "Siyu Xia",
+      "Zekun Xu",
+      "Jiajun Chai",
+      "Wentian Fan",
+      "Yan Song",
+      "Xiaohan Wang",
+      "Guojun Yin",
+      "Wei Lin",
+      "Haifeng Zhang",
+      "Jun Wang"
+    ],
+    "published": "2025-11-11",
+    "updated": "2025-11-11",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Large Language Models (LLMs) based agents have demonstrated remarkable potential in autonomous task-solving across complex, open-ended environments. A promising approach for improving the reasoning capabilities of LLM agents is to better utilize prior experiences in guiding current decisions. However, LLMs acquire experience either through implicit memory via training, which suffers from catastrophic forgetting and limited interpretability, or explicit memory via prompting, which lacks adaptabil",
+    "pdf_url": "https://arxiv.org/pdf/2511.07800v1"
+  },
+  {
+    "arxiv_id": "2511.18423",
+    "title": "General Agentic Memory Via Deep Research",
+    "authors": [
+      "B. Y. Yan",
+      "Chaofan Li",
+      "Hongjin Qian",
+      "Shuqi Lu",
+      "Zheng Liu"
+    ],
+    "published": "2025-11-23",
+    "updated": "2025-11-23",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR",
+      "cs.LG"
+    ],
+    "abstract": "Memory is critical for AI agents, yet the widely-adopted static memory, aiming to create readily available memory in advance, is inevitably subject to severe information loss. To address this limitation, we propose a novel framework called \\textbf{general agentic memory (GAM)}. GAM follows the principle of \"\\textbf{just-in time (JIT) compilation}\" where it focuses on creating optimized contexts for its client at runtime while keeping only simple but useful memory during the offline stage. To thi",
+    "pdf_url": "https://arxiv.org/pdf/2511.18423v1"
+  },
+  {
+    "arxiv_id": "2512.23343",
+    "title": "AI Meets Brain: Memory Systems from Cognitive Neuroscience to Autonomous Agents",
+    "authors": [
+      "Jiafeng Liang",
+      "Hao Li",
+      "Chang Li",
+      "Jiaqi Zhou",
+      "Shixin Jiang",
+      "Zekun Wang",
+      "Changkai Ji",
+      "Zhihao Zhu",
+      "Runxuan Liu",
+      "Tao Ren",
+      "Jinlan Fu",
+      "See-Kiong Ng",
+      "Xia Liang",
+      "Ming Liu",
+      "Bing Qin"
+    ],
+    "published": "2025-12-29",
+    "updated": "2025-12-29",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "abstract": "Memory serves as the pivotal nexus bridging past and future, providing both humans and AI systems with invaluable concepts and experience to navigate complex tasks. Recent research on autonomous agents has increasingly focused on designing efficient memory workflows by drawing on cognitive neuroscience. However, constrained by interdisciplinary barriers, existing works struggle to assimilate the essence of human memory mechanisms. To bridge this gap, we systematically synthesizes interdisciplina",
+    "pdf_url": "https://arxiv.org/pdf/2512.23343v1"
+  },
+  {
+    "arxiv_id": "2602.02007",
+    "title": "Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation",
+    "authors": [
+      "Zhanghao Hu",
+      "Qinglin Zhu",
+      "Runcong Zhao",
+      "Di Liang",
+      "Hanqi Yan",
+      "Yulan He",
+      "Lin Gui"
+    ],
+    "published": "2026-02-02",
+    "updated": "2026-05-12",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Standard Retrieval Augmented Generation (RAG) is poorly matched to agent memory. Unlike large heterogeneous corpora, agent memory forms a bounded and coherent interaction stream in which many spans are highly correlated or near duplicates. As a result, flat top-$k$ similarity retrieval often returns redundant context, while summary-centric hierarchies can blur the subtle details that distinguish one candidate from another. We argue that agent memory should follow the principle of decoupling befo",
+    "pdf_url": "https://arxiv.org/pdf/2602.02007v4"
+  }
+]

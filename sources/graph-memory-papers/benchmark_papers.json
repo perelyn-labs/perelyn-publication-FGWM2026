@@ -1,0 +1,1192 @@
+[
+  {
+    "arxiv_id": "2108.00573",
+    "title": "MuSiQue: Multihop Questions via Single-hop Question Composition",
+    "authors": [
+      "Harsh Trivedi",
+      "Niranjan Balasubramanian",
+      "Tushar Khot",
+      "Ashish Sabharwal"
+    ],
+    "published": "2021-08-02",
+    "updated": "2022-05-05",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Multihop reasoning remains an elusive goal as existing multihop benchmarks are known to be largely solvable via shortcuts. Can we create a question answering (QA) dataset that, by construction, \\emph{requires} proper multihop reasoning? To this end, we introduce a bottom-up approach that systematically selects composable pairs of single-hop questions that are connected, i.e., where one reasoning step critically relies on information from another. This bottom-up methodology lets us explore a vast",
+    "pdf_url": "https://arxiv.org/pdf/2108.00573v3"
+  },
+  {
+    "arxiv_id": "2107.07567",
+    "title": "Beyond Goldfish Memory: Long-Term Open-Domain Conversation",
+    "authors": [
+      "Jing Xu",
+      "Arthur Szlam",
+      "Jason Weston"
+    ],
+    "published": "2021-07-15",
+    "updated": "2021-07-15",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Despite recent improvements in open-domain dialogue models, state of the art models are trained and evaluated on short conversations with little context. In contrast, the long-term conversation setting has hardly been studied. In this work we collect and release a human-human dataset consisting of multiple chat sessions whereby the speaking partners learn about each other's interests and discuss the things they have learnt from past sessions. We show how existing models trained on existing datas",
+    "pdf_url": "https://arxiv.org/pdf/2107.07567v1"
+  },
+  {
+    "arxiv_id": "2401.13178",
+    "title": "AgentBoard: An Analytical Evaluation Board of Multi-turn LLM Agents",
+    "authors": [
+      "Chang Ma",
+      "Junlei Zhang",
+      "Zhihao Zhu",
+      "Cheng Yang",
+      "Yujiu Yang",
+      "Yaohui Jin",
+      "Zhenzhong Lan",
+      "Lingpeng Kong",
+      "Junxian He"
+    ],
+    "published": "2024-01-24",
+    "updated": "2024-12-23",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Evaluating Large Language Models (LLMs) as general-purpose agents is essential for understanding their capabilities and facilitating their integration into practical applications. However, the evaluation process presents substantial challenges. A primary obstacle is the benchmarking of agent performance across diverse scenarios within a unified framework, especially in maintaining partially-observable environments and ensuring multi-round interactions. Moreover, current evaluation frameworks mos",
+    "pdf_url": "https://arxiv.org/pdf/2401.13178v2"
+  },
+  {
+    "arxiv_id": "2406.04151",
+    "title": "AgentGym: Evolving Large Language Model-based Agents across Diverse Environments",
+    "authors": [
+      "Zhiheng Xi",
+      "Yiwen Ding",
+      "Wenxiang Chen",
+      "Boyang Hong",
+      "Honglin Guo",
+      "Junzhe Wang",
+      "Dingwen Yang",
+      "Chenyang Liao",
+      "Xin Guo",
+      "Wei He",
+      "Songyang Gao",
+      "Lu Chen",
+      "Rui Zheng",
+      "Yicheng Zou",
+      "Tao Gui",
+      "Qi Zhang",
+      "Xipeng Qiu",
+      "Xuanjing Huang",
+      "Zuxuan Wu",
+      "Yu-Gang Jiang"
+    ],
+    "published": "2024-06-06",
+    "updated": "2024-06-06",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Building generalist agents that can handle diverse tasks and evolve themselves across different environments is a long-term goal in the AI community. Large language models (LLMs) are considered a promising foundation to build such agents due to their generalized capabilities. Current approaches either have LLM-based agents imitate expert-provided trajectories step-by-step, requiring human supervision, which is hard to scale and limits environmental exploration; or they let agents explore and lea",
+    "pdf_url": "https://arxiv.org/pdf/2406.04151v1"
+  },
+  {
+    "arxiv_id": "2404.09992",
+    "title": "MMInA: Benchmarking Multihop Multimodal Internet Agents",
+    "authors": [
+      "Shulin Tian",
+      "Ziniu Zhang",
+      "Liangyu Chen",
+      "Ziwei Liu"
+    ],
+    "published": "2024-04-15",
+    "updated": "2025-06-29",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Autonomous embodied agents live on an Internet of multimedia websites. Can they hop around multimodal websites to complete complex user tasks? Existing benchmarks fail to assess them in a realistic, evolving environment for their embodiment across websites. To answer this question, we present MMInA, a multihop and multimodal benchmark to evaluate the embodied agents for compositional Internet tasks, with several appealing properties: 1) Evolving real-world multimodal websites. Our benchmark uniq",
+    "pdf_url": "https://arxiv.org/pdf/2404.09992v2"
+  },
+  {
+    "arxiv_id": "2406.11230",
+    "title": "Multimodal Needle in a Haystack: Benchmarking Long-Context Capability of Multimodal Large Language Models",
+    "authors": [
+      "Hengyi Wang",
+      "Haizhou Shi",
+      "Shiwei Tan",
+      "Weiyi Qin",
+      "Wenyuan Wang",
+      "Tunyu Zhang",
+      "Akshay Nambi",
+      "Tanuja Ganu",
+      "Hao Wang"
+    ],
+    "published": "2024-06-17",
+    "updated": "2025-02-11",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "cs.CV"
+    ],
+    "abstract": "Multimodal Large Language Models (MLLMs) have shown significant promise in various applications, leading to broad interest from researchers and practitioners alike. However, a comprehensive evaluation of their long-context capabilities remains underexplored. To address these gaps, we introduce the MultiModal Needle-in-a-haystack (MMNeedle) benchmark, specifically designed to assess the long-context capabilities of MLLMs. Besides multi-image input, we employ image stitching to further increase th",
+    "pdf_url": "https://arxiv.org/pdf/2406.11230v2"
+  },
+  {
+    "arxiv_id": "2410.10813",
+    "title": "LongMemEval: Benchmarking Chat Assistants on Long-Term Interactive Memory",
+    "authors": [
+      "Di Wu",
+      "Hongwei Wang",
+      "Wenhao Yu",
+      "Yuwei Zhang",
+      "Kai-Wei Chang",
+      "Dong Yu"
+    ],
+    "published": "2024-10-14",
+    "updated": "2025-03-04",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Recent large language model (LLM)-driven chat assistant systems have integrated memory components to track user-assistant chat histories, enabling more accurate and personalized responses. However, their long-term memory capabilities in sustained interactions remain underexplored. We introduce LongMemEval, a comprehensive benchmark designed to evaluate five core long-term memory abilities of chat assistants: information extraction, multi-session reasoning, temporal reasoning, knowledge updates, ",
+    "pdf_url": "https://arxiv.org/pdf/2410.10813v2"
+  },
+  {
+    "arxiv_id": "2010.03768",
+    "title": "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning",
+    "authors": [
+      "Mohit Shridhar",
+      "Xingdi Yuan",
+      "Marc-Alexandre C\u00f4t\u00e9",
+      "Yonatan Bisk",
+      "Adam Trischler",
+      "Matthew Hausknecht"
+    ],
+    "published": "2020-10-08",
+    "updated": "2021-03-14",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG",
+      "cs.RO"
+    ],
+    "abstract": "Given a simple request like Put a washed apple in the kitchen fridge, humans can reason in purely abstract terms by imagining action sequences and scoring their likelihood of success, prototypicality, and efficiency, all without moving a muscle. Once we see the kitchen in question, we can update our abstract plans to fit the scene. Embodied agents require the same abilities, but existing work does not yet provide the infrastructure necessary for both reasoning abstractly and executing concretely",
+    "pdf_url": "https://arxiv.org/pdf/2010.03768v2"
+  },
+  {
+    "arxiv_id": "1809.09600",
+    "title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+    "authors": [
+      "Zhilin Yang",
+      "Peng Qi",
+      "Saizheng Zhang",
+      "Yoshua Bengio",
+      "William W. Cohen",
+      "Ruslan Salakhutdinov",
+      "Christopher D. Manning"
+    ],
+    "published": "2018-09-25",
+    "updated": "2018-09-25",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Existing question answering (QA) datasets fail to train QA systems to perform complex reasoning and provide explanations for answers. We introduce HotpotQA, a new dataset with 113k Wikipedia-based question-answer pairs with four key features: (1) the questions require finding and reasoning over multiple supporting documents to answer; (2) the questions are diverse and not constrained to any pre-existing knowledge bases or knowledge schemas; (3) we provide sentence-level supporting facts required",
+    "pdf_url": "https://arxiv.org/pdf/1809.09600v1"
+  },
+  {
+    "arxiv_id": "2402.15057",
+    "title": "On the Multi-turn Instruction Following for Conversational Web Agents",
+    "authors": [
+      "Yang Deng",
+      "Xuan Zhang",
+      "Wenxuan Zhang",
+      "Yifei Yuan",
+      "See-Kiong Ng",
+      "Tat-Seng Chua"
+    ],
+    "published": "2024-02-23",
+    "updated": "2024-02-23",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Web agents powered by Large Language Models (LLMs) have demonstrated remarkable abilities in planning and executing multi-step interactions within complex web-based environments, fulfilling a wide range of web navigation tasks. Despite these advancements, the potential for LLM-powered agents to effectively engage with sequential user instructions in real-world scenarios has not been fully explored. In this work, we introduce a new task of Conversational Web Navigation, which necessitates sophist",
+    "pdf_url": "https://arxiv.org/pdf/2402.15057v1"
+  },
+  {
+    "arxiv_id": "2307.16789",
+    "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+    "authors": [
+      "Yujia Qin",
+      "Shihao Liang",
+      "Yining Ye",
+      "Kunlun Zhu",
+      "Lan Yan",
+      "Yaxi Lu",
+      "Yankai Lin",
+      "Xin Cong",
+      "Xiangru Tang",
+      "Bill Qian",
+      "Sihan Zhao",
+      "Lauren Hong",
+      "Runchu Tian",
+      "Ruobing Xie",
+      "Jie Zhou",
+      "Mark Gerstein",
+      "Dahai Li",
+      "Zhiyuan Liu",
+      "Maosong Sun"
+    ],
+    "published": "2023-07-31",
+    "updated": "2023-10-03",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "abstract": "Despite the advancements of open-source large language models (LLMs), e.g., LLaMA, they remain significantly limited in tool-use capabilities, i.e., using external tools (APIs) to fulfill human instructions. The reason is that current instruction tuning largely focuses on basic language tasks but ignores the tool-use domain. This is in contrast to the excellent tool-use capabilities of state-of-the-art (SOTA) closed-source LLMs, e.g., ChatGPT. To bridge this gap, we introduce ToolLLM, a general ",
+    "pdf_url": "https://arxiv.org/pdf/2307.16789v2"
+  },
+  {
+    "arxiv_id": "2207.01206",
+    "title": "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents",
+    "authors": [
+      "Shunyu Yao",
+      "Howard Chen",
+      "John Yang",
+      "Karthik Narasimhan"
+    ],
+    "published": "2022-07-04",
+    "updated": "2023-02-08",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Existing benchmarks for grounding language in interactive environments either lack real-world linguistic elements, or prove difficult to scale up due to substantial human involvement in the collection of data or feedback signals. To bridge this gap, we develop WebShop -- a simulated e-commerce website environment with $1.18$ million real-world products and $12,087$ crowd-sourced text instructions. Given a text instruction specifying a product requirement, an agent needs to navigate multiple type",
+    "pdf_url": "https://arxiv.org/pdf/2207.01206v4"
+  },
+  {
+    "arxiv_id": "2310.06770",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "authors": [
+      "Carlos E. Jimenez",
+      "John Yang",
+      "Alexander Wettig",
+      "Shunyu Yao",
+      "Kexin Pei",
+      "Ofir Press",
+      "Karthik Narasimhan"
+    ],
+    "published": "2023-10-10",
+    "updated": "2024-11-11",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "abstract": "Language models have outpaced our ability to evaluate them effectively, but for their future development it is essential to study the frontier of their capabilities. We find real-world software engineering to be a rich, sustainable, and challenging testbed for evaluating the next generation of language models. To this end, we introduce SWE-bench, an evaluation framework consisting of $2,294$ software engineering problems drawn from real GitHub issues and corresponding pull requests across $12$ p",
+    "pdf_url": "https://arxiv.org/pdf/2310.06770v3"
+  },
+  {
+    "arxiv_id": "2412.15204",
+    "title": "LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks",
+    "authors": [
+      "Yushi Bai",
+      "Shangqing Tu",
+      "Jiajie Zhang",
+      "Hao Peng",
+      "Xiaozhi Wang",
+      "Xin Lv",
+      "Shulin Cao",
+      "Jiazheng Xu",
+      "Lei Hou",
+      "Yuxiao Dong",
+      "Jie Tang",
+      "Juanzi Li"
+    ],
+    "published": "2024-12-19",
+    "updated": "2025-01-03",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "This paper introduces LongBench v2, a benchmark designed to assess the ability of LLMs to handle long-context problems requiring deep understanding and reasoning across real-world multitasks. LongBench v2 consists of 503 challenging multiple-choice questions, with contexts ranging from 8k to 2M words, across six major task categories: single-document QA, multi-document QA, long in-context learning, long-dialogue history understanding, code repository understanding, and long structured data under",
+    "pdf_url": "https://arxiv.org/pdf/2412.15204v2"
+  },
+  {
+    "arxiv_id": "2404.06654",
+    "title": "RULER: What's the Real Context Size of Your Long-Context Language Models?",
+    "authors": [
+      "Cheng-Ping Hsieh",
+      "Simeng Sun",
+      "Samuel Kriman",
+      "Shantanu Acharya",
+      "Dima Rekesh",
+      "Fei Jia",
+      "Yang Zhang",
+      "Boris Ginsburg"
+    ],
+    "published": "2024-04-09",
+    "updated": "2024-08-06",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "The needle-in-a-haystack (NIAH) test, which examines the ability to retrieve a piece of information (the \"needle\") from long distractor texts (the \"haystack\"), has been widely adopted to evaluate long-context language models (LMs). However, this simple retrieval-based test is indicative of only a superficial form of long-context understanding. To provide a more comprehensive evaluation of long-context LMs, we create a new synthetic benchmark RULER with flexible configurations for customized sequ",
+    "pdf_url": "https://arxiv.org/pdf/2404.06654v3"
+  },
+  {
+    "arxiv_id": "2402.16288",
+    "title": "PerLTQA: A Personal Long-Term Memory Dataset for Memory Classification, Retrieval, and Synthesis in Question Answering",
+    "authors": [
+      "Yiming Du",
+      "Hongru Wang",
+      "Zhengyi Zhao",
+      "Bin Liang",
+      "Baojun Wang",
+      "Wanjun Zhong",
+      "Zezhong Wang",
+      "Kam-Fai Wong"
+    ],
+    "published": "2024-02-26",
+    "updated": "2024-02-26",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "abstract": "Long-term memory plays a critical role in personal interaction, considering long-term memory can better leverage world knowledge, historical information, and preferences in dialogues. Our research introduces PerLTQA, an innovative QA dataset that combines semantic and episodic memories, including world knowledge, profiles, social relationships, events, and dialogues. This dataset is collected to investigate the use of personalized memories, focusing on social interactions and events in the QA ta",
+    "pdf_url": "https://arxiv.org/pdf/2402.16288v1"
+  },
+  {
+    "arxiv_id": "2308.14508",
+    "title": "LongBench: A Bilingual, Multitask Benchmark for Long Context Understanding",
+    "authors": [
+      "Yushi Bai",
+      "Xin Lv",
+      "Jiajie Zhang",
+      "Hongchang Lyu",
+      "Jiankai Tang",
+      "Zhidian Huang",
+      "Zhengxiao Du",
+      "Xiao Liu",
+      "Aohan Zeng",
+      "Lei Hou",
+      "Yuxiao Dong",
+      "Jie Tang",
+      "Juanzi Li"
+    ],
+    "published": "2023-08-28",
+    "updated": "2024-06-19",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Although large language models (LLMs) demonstrate impressive performance for many language tasks, most of them can only handle texts a few thousand tokens long, limiting their applications on longer sequence inputs, such as books, reports, and codebases. Recent works have proposed methods to improve LLMs' long context capabilities by extending context windows and more sophisticated memory mechanisms. However, comprehensive benchmarks tailored for evaluating long context understanding are lacking",
+    "pdf_url": "https://arxiv.org/pdf/2308.14508v2"
+  },
+  {
+    "arxiv_id": "2409.20163",
+    "title": "MemSim: A Bayesian Simulator for Evaluating Memory of LLM-based Personal Assistants",
+    "authors": [
+      "Zeyu Zhang",
+      "Quanyu Dai",
+      "Luyu Chen",
+      "Zeren Jiang",
+      "Rui Li",
+      "Jieming Zhu",
+      "Xu Chen",
+      "Yi Xie",
+      "Zhenhua Dong",
+      "Ji-Rong Wen"
+    ],
+    "published": "2024-09-30",
+    "updated": "2024-09-30",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "LLM-based agents have been widely applied as personal assistants, capable of memorizing information from user messages and responding to personal queries. However, there still lacks an objective and automatic evaluation on their memory capability, largely due to the challenges in constructing reliable questions and answers (QAs) according to user messages. In this paper, we propose MemSim, a Bayesian simulator designed to automatically construct reliable QAs from generated user messages, simulta",
+    "pdf_url": "https://arxiv.org/pdf/2409.20163v1"
+  },
+  {
+    "arxiv_id": "2307.13854",
+    "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+    "authors": [
+      "Shuyan Zhou",
+      "Frank F. Xu",
+      "Hao Zhu",
+      "Xuhui Zhou",
+      "Robert Lo",
+      "Abishek Sridhar",
+      "Xianyi Cheng",
+      "Tianyue Ou",
+      "Yonatan Bisk",
+      "Daniel Fried",
+      "Uri Alon",
+      "Graham Neubig"
+    ],
+    "published": "2023-07-25",
+    "updated": "2024-04-16",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.LG"
+    ],
+    "abstract": "With advances in generative AI, there is now potential for autonomous agents to manage daily tasks via natural language commands. However, current agents are primarily created and tested in simplified synthetic environments, leading to a disconnect with real-world scenarios. In this paper, we build an environment for language-guided agents that is highly realistic and reproducible. Specifically, we focus on agents that perform tasks on the web, and create an environment with fully functional web",
+    "pdf_url": "https://arxiv.org/pdf/2307.13854v4"
+  },
+  {
+    "arxiv_id": "2409.15240",
+    "title": "MADial-Bench: Towards Real-world Evaluation of Memory-Augmented Dialogue Generation",
+    "authors": [
+      "Junqing He",
+      "Liang Zhu",
+      "Rui Wang",
+      "Xi Wang",
+      "Reza Haffari",
+      "Jiaxing Zhang"
+    ],
+    "published": "2024-09-23",
+    "updated": "2024-10-23",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Long-term memory is important for chatbots and dialogue systems (DS) to create consistent and human-like conversations, evidenced by numerous developed memory-augmented DS (MADS). To evaluate the effectiveness of such MADS, existing commonly used evaluation metrics, like retrieval accuracy and perplexity (PPL), mainly focus on query-oriented factualness and language quality assessment. However, these metrics often lack practical value. Moreover, the evaluation dimensions are insufficient for hum",
+    "pdf_url": "https://arxiv.org/pdf/2409.15240v2"
+  },
+  {
+    "arxiv_id": "2406.13743",
+    "title": "GenAI-Bench: Evaluating and Improving Compositional Text-to-Visual Generation",
+    "authors": [
+      "Baiqi Li",
+      "Zhiqiu Lin",
+      "Deepak Pathak",
+      "Jiayao Li",
+      "Yixin Fei",
+      "Kewen Wu",
+      "Tiffany Ling",
+      "Xide Xia",
+      "Pengchuan Zhang",
+      "Graham Neubig",
+      "Deva Ramanan"
+    ],
+    "published": "2024-06-19",
+    "updated": "2024-11-03",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.MM"
+    ],
+    "abstract": "While text-to-visual models now produce photo-realistic images and videos, they struggle with compositional text prompts involving attributes, relationships, and higher-order reasoning such as logic and comparison. In this work, we conduct an extensive human study on GenAI-Bench to evaluate the performance of leading image and video generation models in various aspects of compositional text-to-visual generation. We also compare automated evaluation metrics against our collected human ratings and",
+    "pdf_url": "https://arxiv.org/pdf/2406.13743v3"
+  },
+  {
+    "arxiv_id": "2406.10149",
+    "title": "BABILong: Testing the Limits of LLMs with Long Context Reasoning-in-a-Haystack",
+    "authors": [
+      "Yuri Kuratov",
+      "Aydar Bulatov",
+      "Petr Anokhin",
+      "Ivan Rodkin",
+      "Dmitry Sorokin",
+      "Artyom Sorokin",
+      "Mikhail Burtsev"
+    ],
+    "published": "2024-06-14",
+    "updated": "2024-11-06",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "In recent years, the input context sizes of large language models (LLMs) have increased dramatically. However, existing evaluation methods have not kept pace, failing to comprehensively assess the efficiency of models in handling long contexts. To bridge this gap, we introduce the BABILong benchmark, designed to test language models' ability to reason across facts distributed in extremely long documents. BABILong includes a diverse set of 20 reasoning tasks, including fact chaining, simple induc",
+    "pdf_url": "https://arxiv.org/pdf/2406.10149v2"
+  },
+  {
+    "arxiv_id": "2110.07058",
+    "title": "Ego4D: Around the World in 3,000 Hours of Egocentric Video",
+    "authors": [
+      "Kristen Grauman",
+      "Andrew Westbury",
+      "Eugene Byrne",
+      "Zachary Chavis",
+      "Antonino Furnari",
+      "Rohit Girdhar",
+      "Jackson Hamburger",
+      "Hao Jiang",
+      "Miao Liu",
+      "Xingyu Liu",
+      "Miguel Martin",
+      "Tushar Nagarajan",
+      "Ilija Radosavovic",
+      "Santhosh Kumar Ramakrishnan",
+      "Fiona Ryan",
+      "Jayant Sharma",
+      "Michael Wray",
+      "Mengmeng Xu",
+      "Eric Zhongcong Xu",
+      "Chen Zhao",
+      "Siddhant Bansal",
+      "Dhruv Batra",
+      "Vincent Cartillier",
+      "Sean Crane",
+      "Tien Do",
+      "Morrie Doulaty",
+      "Akshay Erapalli",
+      "Christoph Feichtenhofer",
+      "Adriano Fragomeni",
+      "Qichen Fu",
+      "Abrham Gebreselasie",
+      "Cristina Gonzalez",
+      "James Hillis",
+      "Xuhua Huang",
+      "Yifei Huang",
+      "Wenqi Jia",
+      "Weslie Khoo",
+      "Jachym Kolar",
+      "Satwik Kottur",
+      "Anurag Kumar",
+      "Federico Landini",
+      "Chao Li",
+      "Yanghao Li",
+      "Zhenqiang Li",
+      "Karttikeya Mangalam",
+      "Raghava Modhugu",
+      "Jonathan Munro",
+      "Tullie Murrell",
+      "Takumi Nishiyasu",
+      "Will Price",
+      "Paola Ruiz Puentes",
+      "Merey Ramazanova",
+      "Leda Sari",
+      "Kiran Somasundaram",
+      "Audrey Southerland",
+      "Yusuke Sugano",
+      "Ruijie Tao",
+      "Minh Vo",
+      "Yuchen Wang",
+      "Xindi Wu",
+      "Takuma Yagi",
+      "Ziwei Zhao",
+      "Yunyi Zhu",
+      "Pablo Arbelaez",
+      "David Crandall",
+      "Dima Damen",
+      "Giovanni Maria Farinella",
+      "Christian Fuegen",
+      "Bernard Ghanem",
+      "Vamsi Krishna Ithapu",
+      "C. V. Jawahar",
+      "Hanbyul Joo",
+      "Kris Kitani",
+      "Haizhou Li",
+      "Richard Newcombe",
+      "Aude Oliva",
+      "Hyun Soo Park",
+      "James M. Rehg",
+      "Yoichi Sato",
+      "Jianbo Shi",
+      "Mike Zheng Shou",
+      "Antonio Torralba",
+      "Lorenzo Torresani",
+      "Mingfei Yan",
+      "Jitendra Malik"
+    ],
+    "published": "2021-10-13",
+    "updated": "2022-03-11",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "abstract": "We introduce Ego4D, a massive-scale egocentric video dataset and benchmark suite. It offers 3,670 hours of daily-life activity video spanning hundreds of scenarios (household, outdoor, workplace, leisure, etc.) captured by 931 unique camera wearers from 74 worldwide locations and 9 different countries. The approach to collection is designed to uphold rigorous privacy and ethics standards with consenting participants and robust de-identification procedures where relevant. Ego4D dramatically expan",
+    "pdf_url": "https://arxiv.org/pdf/2110.07058v3"
+  },
+  {
+    "arxiv_id": "2203.07540",
+    "title": "ScienceWorld: Is your Agent Smarter than a 5th Grader?",
+    "authors": [
+      "Ruoyao Wang",
+      "Peter Jansen",
+      "Marc-Alexandre C\u00f4t\u00e9",
+      "Prithviraj Ammanabrolu"
+    ],
+    "published": "2022-03-14",
+    "updated": "2022-11-14",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "We present ScienceWorld, a benchmark to test agents' scientific reasoning abilities in a new interactive text environment at the level of a standard elementary school science curriculum. Despite the transformer-based progress seen in question-answering and scientific text processing, we find that current models cannot reason about or explain learned science concepts in novel contexts. For instance, models can easily answer what the conductivity of a known material is but struggle when asked how ",
+    "pdf_url": "https://arxiv.org/pdf/2203.07540v2"
+  },
+  {
+    "arxiv_id": "2305.10250",
+    "title": "MemoryBank: Enhancing Large Language Models with Long-Term Memory",
+    "authors": [
+      "Wanjun Zhong",
+      "Lianghong Guo",
+      "Qiqi Gao",
+      "He Ye",
+      "Yanlin Wang"
+    ],
+    "published": "2023-05-17",
+    "updated": "2023-05-21",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Revolutionary advancements in Large Language Models have drastically reshaped our interactions with artificial intelligence systems. Despite this, a notable hindrance remains-the deficiency of a long-term memory mechanism within these models. This shortfall becomes increasingly evident in situations demanding sustained interaction, such as personal companion systems and psychological counseling. Therefore, we propose MemoryBank, a novel memory mechanism tailored for LLMs. MemoryBank enables the ",
+    "pdf_url": "https://arxiv.org/pdf/2305.10250v3"
+  },
+  {
+    "arxiv_id": "1705.03551",
+    "title": "TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension",
+    "authors": [
+      "Mandar Joshi",
+      "Eunsol Choi",
+      "Daniel S. Weld",
+      "Luke Zettlemoyer"
+    ],
+    "published": "2017-05-09",
+    "updated": "2017-05-13",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "We present TriviaQA, a challenging reading comprehension dataset containing over 650K question-answer-evidence triples. TriviaQA includes 95K question-answer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average, that provide high quality distant supervision for answering the questions. We show that, in comparison to other recently introduced large-scale datasets, TriviaQA (1) has relatively complex, compositional questions, (2) has consi",
+    "pdf_url": "https://arxiv.org/pdf/1705.03551v2"
+  },
+  {
+    "arxiv_id": "2406.08747",
+    "title": "StreamBench: Towards Benchmarking Continuous Improvement of Language Agents",
+    "authors": [
+      "Cheng-Kuang Wu",
+      "Zhi Rui Tam",
+      "Chieh-Yen Lin",
+      "Yun-Nung Chen",
+      "Hung-yi Lee"
+    ],
+    "published": "2024-06-13",
+    "updated": "2024-10-31",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Recent works have shown that large language model (LLM) agents are able to improve themselves from experience, which is an important ability for continuous enhancement post-deployment. However, existing benchmarks primarily evaluate their innate capabilities and do not assess their ability to improve over time. To address this gap, we introduce StreamBench, a pioneering benchmark designed to evaluate the continuous improvement of LLM agents over an input-feedback sequence. StreamBench simulates ",
+    "pdf_url": "https://arxiv.org/pdf/2406.08747v2"
+  },
+  {
+    "arxiv_id": "2406.13144",
+    "title": "DialSim: A Dialogue Simulator for Evaluating Long-Term Multi-Party Dialogue Understanding of Conversational Agents",
+    "authors": [
+      "Jiho Kim",
+      "Woosog Chay",
+      "Hyeonji Hwang",
+      "Daeun Kyung",
+      "Hyunseung Chung",
+      "Eunbyeol Cho",
+      "Yeonsu Kwon",
+      "Yohan Jo",
+      "Edward Choi"
+    ],
+    "published": "2024-06-19",
+    "updated": "2025-09-26",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Recent advancements in Large Language Models (LLMs) have significantly enhanced conversational agents, making them applicable to various fields (e.g., education, entertainment). Despite their progress, the evaluation of the agents often overlooks the complexities of real-world conversations, such as multi-party dialogues and extended contextual dependencies. To bridge this gap, we introduce DialSim, a dialogue simulation-based evaluation framework. In DialSim, an agent assumes the role of a char",
+    "pdf_url": "https://arxiv.org/pdf/2406.13144v6"
+  },
+  {
+    "arxiv_id": "2311.12983",
+    "title": "GAIA: a benchmark for General AI Assistants",
+    "authors": [
+      "Gr\u00e9goire Mialon",
+      "Cl\u00e9mentine Fourrier",
+      "Craig Swift",
+      "Thomas Wolf",
+      "Yann LeCun",
+      "Thomas Scialom"
+    ],
+    "published": "2023-11-21",
+    "updated": "2023-11-21",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "We introduce GAIA, a benchmark for General AI Assistants that, if solved, would represent a milestone in AI research. GAIA proposes real-world questions that require a set of fundamental abilities such as reasoning, multi-modality handling, web browsing, and generally tool-use proficiency. GAIA questions are conceptually simple for humans yet challenging for most advanced AIs: we show that human respondents obtain 92\\% vs. 15\\% for GPT-4 equipped with plugins. This notable performance disparity ",
+    "pdf_url": "https://arxiv.org/pdf/2311.12983v1"
+  },
+  {
+    "arxiv_id": "2402.17753",
+    "title": "Evaluating Very Long-Term Conversational Memory of LLM Agents",
+    "authors": [
+      "Adyasha Maharana",
+      "Dong-Ho Lee",
+      "Sergey Tulyakov",
+      "Mohit Bansal",
+      "Francesco Barbieri",
+      "Yuwei Fang"
+    ],
+    "published": "2024-02-27",
+    "updated": "2024-02-27",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Existing works on long-term open-domain dialogues focus on evaluating model responses within contexts spanning no more than five chat sessions. Despite advancements in long-context large language models (LLMs) and retrieval augmented generation (RAG) techniques, their efficacy in very long-term dialogues remains unexplored. To address this research gap, we introduce a machine-human pipeline to generate high-quality, very long-term dialogues by leveraging LLM-based agent architectures and groundi",
+    "pdf_url": "https://arxiv.org/pdf/2402.17753v1"
+  },
+  {
+    "arxiv_id": "2011.01060",
+    "title": "Constructing A Multi-hop QA Dataset for Comprehensive Evaluation of Reasoning Steps",
+    "authors": [
+      "Xanh Ho",
+      "Anh-Khoa Duong Nguyen",
+      "Saku Sugawara",
+      "Akiko Aizawa"
+    ],
+    "published": "2020-11-02",
+    "updated": "2020-11-12",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "A multi-hop question answering (QA) dataset aims to test reasoning and inference skills by requiring a model to read multiple paragraphs to answer a given question. However, current datasets do not provide a complete explanation for the reasoning process from the question to the answer. Further, previous studies revealed that many examples in existing multi-hop datasets do not require multi-hop reasoning to answer a question. In this study, we present a new multi-hop QA dataset, called 2WikiMult",
+    "pdf_url": "https://arxiv.org/pdf/2011.01060v2"
+  },
+  {
+    "arxiv_id": "1810.08272",
+    "title": "BabyAI: A Platform to Study the Sample Efficiency of Grounded Language Learning",
+    "authors": [
+      "Maxime Chevalier-Boisvert",
+      "Dzmitry Bahdanau",
+      "Salem Lahlou",
+      "Lucas Willems",
+      "Chitwan Saharia",
+      "Thien Huu Nguyen",
+      "Yoshua Bengio"
+    ],
+    "published": "2018-10-18",
+    "updated": "2019-12-19",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Allowing humans to interactively train artificial agents to understand language instructions is desirable for both practical and scientific reasons, but given the poor data efficiency of the current learning methods, this goal may require substantial research efforts. Here, we introduce the BabyAI research platform to support investigations towards including humans in the loop for grounded language learning. The BabyAI platform comprises an extensible suite of 19 levels of increasing difficulty.",
+    "pdf_url": "https://arxiv.org/pdf/1810.08272v4"
+  },
+  {
+    "arxiv_id": "2510.01353",
+    "title": "MEMTRACK: Evaluating Long-Term Memory and State Tracking in Multi-Platform Dynamic Agent Environments",
+    "authors": [
+      "Darshan Deshpande",
+      "Varun Gangal",
+      "Hersh Mehta",
+      "Anand Kannappan",
+      "Rebecca Qian",
+      "Peng Wang"
+    ],
+    "published": "2025-10-01",
+    "updated": "2025-10-01",
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "abstract": "Recent works on context and memory benchmarking have primarily focused on conversational instances but the need for evaluating memory in dynamic enterprise environments is crucial for its effective application. We introduce MEMTRACK, a benchmark designed to evaluate long-term memory and state tracking in multi-platform agent environments. MEMTRACK models realistic organizational workflows by integrating asynchronous events across multiple communication and productivity platforms such as Slack, L",
+    "pdf_url": "https://arxiv.org/pdf/2510.01353v1"
+  },
+  {
+    "arxiv_id": "2506.01952",
+    "title": "WebChoreArena: Evaluating Web Browsing Agents on Realistic Tedious Web Tasks",
+    "authors": [
+      "Atsuyuki Miyai",
+      "Zaiying Zhao",
+      "Kazuki Egashira",
+      "Atsuki Sato",
+      "Tatsumi Sunada",
+      "Shota Onohara",
+      "Hiromasa Yamanishi",
+      "Mashiro Toyooka",
+      "Kunato Nishina",
+      "Ryoma Maeda",
+      "Kiyoharu Aizawa",
+      "Toshihiko Yamasaki"
+    ],
+    "published": "2025-06-02",
+    "updated": "2025-06-02",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "abstract": "Powered by a large language model (LLM), a web browsing agent operates web browsers in a human-like manner and offers a highly transparent path toward automating a wide range of everyday tasks. As web agents become increasingly capable and demonstrate proficiency in general browsing tasks, a critical question emerges: Can they go beyond general browsing to robustly handle tasks that are tedious and complex, or chores that humans often avoid doing themselves? In this paper, we introduce WebChoreA",
+    "pdf_url": "https://arxiv.org/pdf/2506.01952v1"
+  },
+  {
+    "arxiv_id": "2508.13250",
+    "title": "Explicit v.s. Implicit Memory: Exploring Multi-hop Complex Reasoning Over Personalized Information",
+    "authors": [
+      "Zeyu Zhang",
+      "Yang Zhang",
+      "Haoran Tan",
+      "Rui Li",
+      "Xu Chen"
+    ],
+    "published": "2025-08-18",
+    "updated": "2025-08-18",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.IR"
+    ],
+    "abstract": "In large language model-based agents, memory serves as a critical capability for achieving personalization by storing and utilizing users' information. Although some previous studies have adopted memory to implement user personalization, they typically focus on preference alignment and simple question-answering. However, in the real world, complex tasks often require multi-hop reasoning on a large amount of user information, which poses significant challenges for current memory approaches. To ad",
+    "pdf_url": "https://arxiv.org/pdf/2508.13250v1"
+  },
+  {
+    "arxiv_id": "2504.14225",
+    "title": "Know Me, Respond to Me: Benchmarking LLMs for Dynamic User Profiling and Personalized Responses at Scale",
+    "authors": [
+      "Bowen Jiang",
+      "Zhuoqun Hao",
+      "Young-Min Cho",
+      "Bryan Li",
+      "Yuan Yuan",
+      "Sihao Chen",
+      "Lyle Ungar",
+      "Camillo J. Taylor",
+      "Dan Roth"
+    ],
+    "published": "2025-04-19",
+    "updated": "2025-10-27",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Large Language Models (LLMs) have emerged as personalized assistants for users across a wide range of tasks -- from offering writing support to delivering tailored recommendations or consultations. Over time, the interaction history between a user and an LLM can provide extensive information about an individual's traits and preferences. However, open questions remain on how well LLMs today can effectively leverage such history to (1) internalize the user's inherent traits and preferences, (2) tr",
+    "pdf_url": "https://arxiv.org/pdf/2504.14225v2"
+  },
+  {
+    "arxiv_id": "2506.13651",
+    "title": "xbench: Tracking Agents Productivity Scaling with Profession-Aligned Real-World Evaluations",
+    "authors": [
+      "Kaiyuan Chen",
+      "Yixin Ren",
+      "Yang Liu",
+      "Xiaobo Hu",
+      "Haotong Tian",
+      "Tianbao Xie",
+      "Fangfu Liu",
+      "Haoye Zhang",
+      "Hongzhang Liu",
+      "Yuan Gong",
+      "Chen Sun",
+      "Han Hou",
+      "Hui Yang",
+      "James Pan",
+      "Jianan Lou",
+      "Jiayi Mao",
+      "Jizheng Liu",
+      "Jinpeng Li",
+      "Kangyi Liu",
+      "Kenkun Liu",
+      "Rui Wang",
+      "Run Li",
+      "Tong Niu",
+      "Wenlong Zhang",
+      "Wenqi Yan",
+      "Xuanzheng Wang",
+      "Yuchen Zhang",
+      "Yi-Hsin Hung",
+      "Yuan Jiang",
+      "Zexuan Liu",
+      "Zihan Yin",
+      "Zijian Ma",
+      "Zhiwen Mo"
+    ],
+    "published": "2025-06-16",
+    "updated": "2025-06-16",
+    "categories": [
+      "cs.LG"
+    ],
+    "abstract": "We introduce xbench, a dynamic, profession-aligned evaluation suite designed to bridge the gap between AI agent capabilities and real-world productivity. While existing benchmarks often focus on isolated technical skills, they may not accurately reflect the economic value agents deliver in professional settings. To address this, xbench targets commercially significant domains with evaluation tasks defined by industry professionals. Our framework creates metrics that strongly correlate with produ",
+    "pdf_url": "https://arxiv.org/pdf/2506.13651v1"
+  },
+  {
+    "arxiv_id": "2506.13356",
+    "title": "StoryBench: A Dynamic Benchmark for Evaluating Long-Term Memory with Multi Turns",
+    "authors": [
+      "Luanbo Wan",
+      "Weizhi Ma"
+    ],
+    "published": "2025-06-16",
+    "updated": "2025-06-16",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Long-term memory (LTM) is essential for large language models (LLMs) to achieve autonomous intelligence in complex, evolving environments. Despite increasing efforts in memory-augmented and retrieval-based architectures, there remains a lack of standardized benchmarks to systematically evaluate LLMs' long-term memory abilities. Existing benchmarks still face challenges in evaluating knowledge retention and dynamic sequential reasoning, and in their own flexibility, all of which limit their effec",
+    "pdf_url": "https://arxiv.org/pdf/2506.13356v1"
+  },
+  {
+    "arxiv_id": "2507.05257",
+    "title": "Evaluating Memory in LLM Agents via Incremental Multi-Turn Interactions",
+    "authors": [
+      "Yuanzhe Hu",
+      "Yu Wang",
+      "Julian McAuley"
+    ],
+    "published": "2025-07-07",
+    "updated": "2026-03-17",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Recent benchmarks for Large Language Model (LLM) agents primarily focus on evaluating reasoning, planning, and execution capabilities, while another critical component-memory, encompassing how agents memorize, update, and retrieve long-term information-is under-evaluated due to the lack of benchmarks. We term agents with memory mechanisms as memory agents. In this paper, based on classic theories from memory science and cognitive science, we identify four core competencies essential for memory a",
+    "pdf_url": "https://arxiv.org/pdf/2507.05257v3"
+  },
+  {
+    "arxiv_id": "2502.11903",
+    "title": "MMRC: A Large-Scale Benchmark for Understanding Multimodal Large Language Model in Real-World Conversation",
+    "authors": [
+      "Haochen Xue",
+      "Feilong Tang",
+      "Ming Hu",
+      "Yexin Liu",
+      "Qidong Huang",
+      "Yulong Li",
+      "Chengzhi Liu",
+      "Zhongxing Xu",
+      "Chong Zhang",
+      "Chun-Mei Feng",
+      "Yutong Xie",
+      "Imran Razzak",
+      "Zongyuan Ge",
+      "Jionglong Su",
+      "Junjun He",
+      "Yu Qiao"
+    ],
+    "published": "2025-02-17",
+    "updated": "2025-03-08",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Recent multimodal large language models (MLLMs) have demonstrated significant potential in open-ended conversation, generating more accurate and personalized responses. However, their abilities to memorize, recall, and reason in sustained interactions within real-world scenarios remain underexplored. This paper introduces MMRC, a Multi-Modal Real-world Conversation benchmark for evaluating six core open-ended abilities of MLLMs: information extraction, multi-turn reasoning, information update, i",
+    "pdf_url": "https://arxiv.org/pdf/2502.11903v2"
+  },
+  {
+    "arxiv_id": "2511.03506",
+    "title": "HaluMem: Evaluating Hallucinations in Memory Systems of Agents",
+    "authors": [
+      "Ding Chen",
+      "Simin Niu",
+      "Kehang Li",
+      "Peng Liu",
+      "Xiangping Zheng",
+      "Bo Tang",
+      "Xinchi Li",
+      "Feiyu Xiong",
+      "Zhiyu Li"
+    ],
+    "published": "2025-11-05",
+    "updated": "2026-01-05",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Memory systems are key components that enable AI systems such as LLMs and AI agents to achieve long-term learning and sustained interaction. However, during memory storage and retrieval, these systems frequently exhibit memory hallucinations, including fabrication, errors, conflicts, and omissions. Existing evaluations of memory hallucinations are primarily end-to-end question answering, which makes it difficult to localize the operational stage within the memory system where hallucinations aris",
+    "pdf_url": "https://arxiv.org/pdf/2511.03506v3"
+  },
+  {
+    "arxiv_id": "2505.11942",
+    "title": "LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners",
+    "authors": [
+      "Junhao Zheng",
+      "Xidi Cai",
+      "Qiuke Li",
+      "Duzhen Zhang",
+      "ZhongZhi Li",
+      "Yingying Zhang",
+      "Le Song",
+      "Qianli Ma"
+    ],
+    "published": "2025-05-17",
+    "updated": "2025-05-30",
+    "categories": [
+      "cs.AI"
+    ],
+    "abstract": "Lifelong learning is essential for intelligent agents operating in dynamic environments. Current large language model (LLM)-based agents, however, remain stateless and unable to accumulate or transfer knowledge over time. Existing benchmarks treat agents as static systems and fail to evaluate lifelong learning capabilities. We present LifelongAgentBench, the first unified benchmark designed to systematically assess the lifelong learning ability of LLM agents. It provides skill-grounded, interdep",
+    "pdf_url": "https://arxiv.org/pdf/2505.11942v3"
+  },
+  {
+    "arxiv_id": "2503.03803",
+    "title": "EgoLife: Towards Egocentric Life Assistant",
+    "authors": [
+      "Jingkang Yang",
+      "Shuai Liu",
+      "Hongming Guo",
+      "Yuhao Dong",
+      "Xiamengwei Zhang",
+      "Sicheng Zhang",
+      "Pengyun Wang",
+      "Zitang Zhou",
+      "Binzhu Xie",
+      "Ziyue Wang",
+      "Bei Ouyang",
+      "Zhengyu Lin",
+      "Marco Cominelli",
+      "Zhongang Cai",
+      "Yuanhan Zhang",
+      "Peiyuan Zhang",
+      "Fangzhou Hong",
+      "Joerg Widmer",
+      "Francesco Gringoli",
+      "Lei Yang",
+      "Bo Li",
+      "Ziwei Liu"
+    ],
+    "published": "2025-03-05",
+    "updated": "2026-02-09",
+    "categories": [
+      "cs.CV"
+    ],
+    "abstract": "We introduce EgoLife, a project to develop an egocentric life assistant that accompanies and enhances personal efficiency through AI-powered wearable glasses. To lay the foundation for this assistant, we conducted a comprehensive data collection study where six participants lived together for one week, continuously recording their daily activities - including discussions, shopping, cooking, socializing, and entertainment - using AI glasses for multimodal egocentric video capture, along with sync",
+    "pdf_url": "https://arxiv.org/pdf/2503.03803v3"
+  },
+  {
+    "arxiv_id": "2510.17281",
+    "title": "MemoryBench: A Benchmark for Memory and Continual Learning in LLM Systems",
+    "authors": [
+      "Qingyao Ai",
+      "Yichen Tang",
+      "Changyue Wang",
+      "Jianming Long",
+      "Weihang Su",
+      "Yiqun Liu"
+    ],
+    "published": "2025-10-20",
+    "updated": "2026-05-09",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "abstract": "Scaling up data, parameters, and test-time computation has been the mainstream methods to improve LLM systems (LLMsys), but their upper bounds are almost reached due to the gradual depletion of high-quality data and marginal gains obtained from larger computational resource consumption. Inspired by the abilities of human and traditional AI systems in learning from practice, constructing memory and continual learning frameworks for LLMsys has become an important and popular research direction in ",
+    "pdf_url": "https://arxiv.org/pdf/2510.17281v6"
+  },
+  {
+    "arxiv_id": "2506.21605",
+    "title": "MemBench: Towards More Comprehensive Evaluation on the Memory of LLM-based Agents",
+    "authors": [
+      "Haoran Tan",
+      "Zeyu Zhang",
+      "Chen Ma",
+      "Xu Chen",
+      "Quanyu Dai",
+      "Zhenhua Dong"
+    ],
+    "published": "2025-06-20",
+    "updated": "2025-06-20",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Recent works have highlighted the significance of memory mechanisms in LLM-based agents, which enable them to store observed information and adapt to dynamic environments. However, evaluating their memory capabilities still remains challenges. Previous evaluations are commonly limited by the diversity of memory levels and interactive scenarios. They also lack comprehensive metrics to reflect the memory capabilities from multiple aspects. To address these problems, in this paper, we construct a m",
+    "pdf_url": "https://arxiv.org/pdf/2506.21605v1"
+  },
+  {
+    "arxiv_id": "2502.09597",
+    "title": "Do LLMs Recognize Your Preferences? Evaluating Personalized Preference Following in LLMs",
+    "authors": [
+      "Siyan Zhao",
+      "Mingyi Hong",
+      "Yang Liu",
+      "Devamanyu Hazarika",
+      "Kaixiang Lin"
+    ],
+    "published": "2025-02-13",
+    "updated": "2025-02-13",
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "abstract": "Large Language Models (LLMs) are increasingly used as chatbots, yet their ability to personalize responses to user preferences remains limited. We introduce PrefEval, a benchmark for evaluating LLMs' ability to infer, memorize and adhere to user preferences in a long-context conversational setting. PrefEval comprises 3,000 manually curated user preference and query pairs spanning 20 topics. PrefEval contains user personalization or preference information in both explicit and implicit forms, and ",
+    "pdf_url": "https://arxiv.org/pdf/2502.09597v1"
+  },
+  {
+    "arxiv_id": "2503.05150",
+    "title": "Interpersonal Memory Matters: A New Task for Proactive Dialogue Utilizing Conversational History",
+    "authors": [
+      "Bowen Wu",
+      "Wenqing Wang",
+      "Haoran Li",
+      "Ying Li",
+      "Jingsong Yu",
+      "Baoxun Wang"
+    ],
+    "published": "2025-03-07",
+    "updated": "2025-03-07",
+    "categories": [
+      "cs.CL"
+    ],
+    "abstract": "Proactive dialogue systems aim to empower chatbots with the capability of leading conversations towards specific targets, thereby enhancing user engagement and service autonomy. Existing systems typically target pre-defined keywords or entities, neglecting user attributes and preferences implicit in dialogue history, hindering the development of long-term user intimacy. To address these challenges, we take a radical step towards building a more human-like conversational agent by integrating proa",
+    "pdf_url": "https://arxiv.org/pdf/2503.05150v1"
+  },
+  {
+    "arxiv_id": "2511.20857",
+    "title": "Evo-Memory: Benchmarking LLM Agent Test-time Learning with Self-Evolving Memory",
+    "authors": [
+      "Tianxin Wei",
+      "Noveen Sachdeva",
+      "Benjamin Coleman",
+      "Zhankui He",
+      "Yuanchen Bei",
+      "Xuying Ning",
+      "Mengting Ai",
+      "Yunzhe Li",
+      "Jingrui He",
+      "Ed H. Chi",
+      "Chi Wang",
+      "Shuo Chen",
+      "Fernando Pereira",
+      "Wang-Cheng Kang",
+      "Derek Zhiyuan Cheng"
+    ],
+    "published": "2025-11-25",
+    "updated": "2025-11-25",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "Statefulness is essential for large language model (LLM) agents to perform long-term planning and problem-solving. This makes memory a critical component, yet its management and evolution remain largely underexplored. Existing evaluations mostly focus on static conversational settings, where memory is passively retrieved from dialogue to answer queries, overlooking the dynamic ability to accumulate and reuse experience across evolving task streams. In real-world environments such as interactive ",
+    "pdf_url": "https://arxiv.org/pdf/2511.20857v1"
+  },
+  {
+    "arxiv_id": "2601.06966",
+    "title": "RealMem: Benchmarking LLMs in Real-World Memory-Driven Interaction",
+    "authors": [
+      "Haonan Bian",
+      "Zhiyuan Yao",
+      "Sen Hu",
+      "Zishan Xu",
+      "Shaolei Zhang",
+      "Yifu Guo",
+      "Ziliang Yang",
+      "Xueran Han",
+      "Huacan Wang",
+      "Ronghao Chen"
+    ],
+    "published": "2026-01-11",
+    "updated": "2026-01-11",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "abstract": "As Large Language Models (LLMs) evolve from static dialogue interfaces to autonomous general agents, effective memory is paramount to ensuring long-term consistency. However, existing benchmarks primarily focus on casual conversation or task-oriented dialogue, failing to capture **\"long-term project-oriented\"** interactions where agents must track evolving goals.   To bridge this gap, we introduce **RealMem**, the first benchmark grounded in realistic project scenarios. RealMem comprises over 2,",
+    "pdf_url": "https://arxiv.org/pdf/2601.06966v1"
+  }
+]
