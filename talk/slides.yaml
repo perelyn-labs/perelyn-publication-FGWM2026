@@ -1,0 +1,37 @@
+# slides.yaml — slide-forge configuration
+
+source: ..                     # parent folder (the paper directory)
+
+theme: perelyn
+duration: 10min
+audience: researchers-general
+
+title: "Graph-Structured Memory for Cognitive Agents"
+subtitle: "From Knowledge Graphs to Non-Euclidean Geometry"
+author: "Michael Banf"
+institute: "Perelyn GmbH, Munich"
+date: "FGWM @ KI 2026"
+
+focus:
+  sections: []
+  skip: []
+  key_figures: [1]
+
+narrative:
+  hook: "Why do graph-based memory systems hit a ceiling on multi-hop reasoning — and what if the problem is geometric?"
+  arc: "problem → graph memory taxonomy → retrieval spectrum → geometric frontier → takeaway"
+  takeaway: "Non-Euclidean geometry is a natural next layer for graph-based agent memory — and several techniques require no retraining."
+
+style:
+  math: light
+  code: false
+  citations: sparse
+
+constraints:
+  - "No more than 5 items per slide"
+  - "Use \\alert{} for key concepts"
+  - "Include section dividers between major transitions"
+  - "Keep non-Euclidean geometry intuitive — the presenter is not a specialist"
+  - "Emphasize practical applicability over mathematical formalism"
+
+notes: true

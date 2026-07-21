@@ -98,8 +98,8 @@ ii)~brute-force compression of all prior interaction into the context
 window, which grows ever larger but still cannot preserve relational
 structure. Both handle factual recall but fail systematically on
 temporal reasoning, multi-hop inference, and knowledge evolution.
-Flat paradigms---vector stores, key-value extraction, and even
-the emerging LLM Wiki pattern~\cite{karpathyllmwiki2025}---lack
+Flat paradigms, such as vector stores, key-value extraction, and even
+the emerging LLM Wiki pattern~\cite{karpathyllmwiki2025}, lack
 native support for multi-hop traversal, temporal ordering, causal
 structure, and hierarchical consolidation; graph-based architectures
 provide all of these by construction.
@@ -117,19 +117,40 @@ hierarchical event graphs capture episodic consolidation. The core
 challenge then shifts from \emph{what to discard} to \emph{how to
 find the right subgraph}, i.e. a retrieval problem where graph topology is
 a first-class signal.
-Here we survey the current state of the art graph-based agent memory systems between 2023--2026~\cite{graphmemsurvey2026, memagents2026}, 
-with three significant findings standing out: i)~entity-relation KGs account for 60\% of surveyed graph-memory papers;
+We address the following research question: \emph{How do current
+graph-based memory architectures handle retrieval, temporal reasoning,
+and structural representation, and can non-Euclidean geometric
+techniques address their identified limitations?}
+We survey the current state of the art in graph-based agent memory
+systems between 2023 and 2026~\cite{graphmemsurvey2026, memagents2026}.
+To scope this survey, we searched Semantic Scholar, arXiv, and the
+proceedings of NeurIPS, ICLR, ACL, EMNLP, KDD, and IJCAI (2023--2026)
+using the query terms \emph{agent memory}, \emph{graph memory},
+\emph{knowledge graph + LLM agent}, and \emph{persistent memory +
+LLM}. We included papers that propose or evaluate a graph-structured
+memory component for LLM-based agents and excluded systems that use
+graphs solely for retrieval-augmented generation without a persistent
+memory loop. This yielded 30+ primary systems, which we organize
+by architectural pattern, temporal mechanism, and retrieval strategy.
+Three significant findings stand out: i)~entity-relation KGs account for 60\% of surveyed graph-memory papers;
 non-KG structures remain rare; ii)~57\% implement no temporal mechanism, constituting a field-wide deficit; and iii)~retrieval is overwhelmingly training-free, i.e. graph algorithms and
 multi-strategy heuristics power every production system, while only a tiny fraction of surveyed research work applies graph neural networks (GNN) message passing.
 
 Figure~\ref{fig:progression} illustrates the structural progression
-from flat memory to geometric representations. This paper contributes:
-(1)~a taxonomy of graph-based agent memory patterns including temporal
-grounding;
-(2)~a retrieval spectrum with a model-size equalizer analysis;
-(3)~an analysis of non-Euclidean geometric techniques and their
-application to agent memory challenges; and
-(4)~a research agenda.
+from flat memory to geometric representations. This paper makes two types of contributions.
+Our survey, therefore, first provides:
+i)~a taxonomy of six graph-based agent memory patterns including
+temporal grounding (Section~\ref{sec:taxonomy}); and
+ii)~a retrieval spectrum from training-free graph algorithms to learned
+GNN retrieval, with a model-size equalizer analysis
+(Section~\ref{sec:retrieval}).
+On the basis of this survey we derive:
+i)~an argument, supported by converging evidence from geometric deep
+learning, that non-Euclidean techniques are directly applicable to
+the structural limitations identified in the survey
+(Section~\ref{sec:geometric}); and
+ii)~a research agenda for geometry-aware persistent agent memory
+(Section~\ref{sec:discussion}).
 
 \begin{figure}[t]
 \centering
@@ -298,15 +319,18 @@ graphs. The scarcity reflects fundamental tensions, i.e. cold start, no retrieva
 evolution outpacing retraining, and diminishing returns on factual
 tasks where heuristics already achieve high accuracy.
 
-A striking pattern across our corpus is that graph-structured
-memory disproportionately benefits smaller models. GAM achieves +39\% F1 improvement over
+A striking pattern across independently reported results is that graph-structured memory disproportionately
+benefits smaller models, although we note that different benchmarks, base models, and evaluation
+protocols were used per study. GAM achieves +39\% F1 improvement over
 Mem0 at 7B but only +7\% at GPT-4o, and on LongDialQA this ratio reaches
 17 times improvement. The trained Qwen3-4B with graph memory
 outperforms baseline Qwen3-8B showing that graph structure directly
 substitutes for model scale. GNN-RAG~\cite{gnnrag2025} shows a
 fine-tuned 7B model with graph retrieval matches GPT-4 on knowledge graph question answering tasks.
 
-These results may be explained by four mechanisms: i)~context window relief via focused
+While controlled experiments across a unified benchmark are needed to
+confirm this trend, the reported results may be explained by four
+mechanisms: i)~context window relief via focused
 subgraph retrieval; ii)~explicit structure offloading reasoning that
 larger models derive implicitly; iii)~token efficiency (GNN-RAG's
 reduction); and iv)~strategic compensation from
@@ -322,15 +346,25 @@ significant token compression versus raw trajectory storage.
 \label{sec:geometric}
 %%% ==================================================================
 
+The preceding sections reveal a consistent pattern: graph-structured
+memory improves retrieval and reasoning, yet three structural
+limitations persist, i.e. cognitive accuracy ceilings on multi-hop tasks,
+a temporal grounding deficit in the majority of systems, and
+semantic collapse as memory graphs grow. These limitations are not
+algorithmic but \emph{geometric}: they arise from embedding
+inherently non-flat structures into flat space. We now turn to
+techniques from geometric deep learning that directly address each of
+these failure modes.
+
 All graph-based memory systems surveyed above embed their graphs in
 flat Euclidean space. Yet recent work on graph neural networks,
 knowledge graph embeddings, and topological deep
 learning~\cite{tdlposition2024} shows that non-Euclidean
-representations---hyperbolic embeddings, discrete Ricci curvature,
-Lie group manifolds---can dramatically improve performance on
+representations, such as hyperbolic embeddings, discrete Ricci curvature,
+Lie group manifolds, can dramatically improve performance on
 hierarchical and temporal data. Since graph-structured memory is
-fundamentally a retrieval problem---finding the right subgraph at the
-right time---these techniques are directly applicable as foundational
+fundamentally a retrieval problem, i.e. finding the right subgraph at the
+right time, these techniques are directly applicable as foundational
 components of memory architectures.
 
 Selective retrieval over a knowledge graph fails when the graph
@@ -339,7 +373,7 @@ curvature}~\cite{formanricci2017,topping2022} provides a per-edge
 diagnostic for this: edges within tight clusters have positive
 curvature, while edges bridging distant communities have negative
 curvature. Negatively curved edges cause
-\emph{over-squashing}~\cite{alon2021}---information from
+\emph{over-squashing}~\cite{alon2021}, i.e. information from
 exponentially many source nodes must squeeze through a single bridge
 edge, causing multi-hop retrieval to suffer exponential signal
 decay. This offers a structural explanation for the cognitive
@@ -360,7 +394,7 @@ are compressed into a low-dimensional subspace because Euclidean
 volume grows polynomially while tree-like knowledge branching grows
 exponentially~\cite{nickel2017poincare}. Gao and
 Metaxas~\cite{gao2026semanticshift} formalize this as semantic
-shift---as diversity increases, pooled representations drift away
+shift, i.e. as diversity increases, pooled representations drift away
 from every individual embedding. \emph{Hyperbolic space}, where
 volume grows exponentially, provides a geometric remedy by naturally
 separating hierarchy levels: abstract topics embed near the origin,
@@ -378,8 +412,8 @@ HyperGCL~\cite{hypergcl2025} shows that naive contrastive learning in
 hyperbolic space still causes dimensional collapse, meaning
 collapse-aware objectives are required, such as HypRAG's Outward
 Einstein Midpoint pooling operator. Since real memory graphs exhibit
-topological heterogeneity---some regions are tree-like, others
-cyclical or clique-dense---a single curvature may not suffice.
+topological heterogeneity, i.e. some regions are tree-like, others
+cyclical or clique-dense, a single curvature may not suffice.
 GraphMoRE~\cite{graphmore2025} addresses this with a mixture of
 Riemannian experts that assigns spherical, hyperbolic, or Euclidean
 geometry per node.
@@ -389,7 +423,7 @@ not just what was stored but when, and how knowledge evolved. In
 temporal KGs, entities, relations, and timestamps live in
 fundamentally different spaces, making direct fusion difficult.
 \emph{Lie groups} such as $SO(n)$ (rotation matrices) offer a
-solution: their tangent space---the Lie algebra---is an ordinary
+solution: their tangent space, i.e. the Lie algebra, is an ordinary
 vector space, so projecting via the logarithmic map lets
 heterogeneous factors be added, scaled, and processed by standard
 neural network layers. Li et al.~\cite{tkgembed2025} apply this
@@ -406,47 +440,118 @@ Riemannian graph representations, suggesting that zero-shot geometric
 encoding of memory traces may become feasible without per-agent
 supervised training.
 
+To make this concrete, consider how Graphiti/Zep, which is the strongest
+bi-temporal system in our survey, could be geometrically enhanced.
+Its entity-relation KG already carries validity intervals on every
+edge. First, computing Forman-Ricci curvature over this graph
+(an $O(|E|)$ operation requiring no training) would flag negatively
+curved bridge edges where multi-hop retrieval is likely to
+degrade, providing an automatic diagnostic for the cognitive
+accuracy ceiling. Second, replacing its Euclidean entity embeddings
+with Poincar\'{e} ball embeddings would let abstract topics
+(e.g., \emph{project goals}) embed near the origin while specific
+episodic facts (e.g., \emph{meeting notes from June~3}) sit near the
+boundary, preserving hierarchical separation as the memory graph
+grows. Third, its temporal validity intervals could be fused with
+entity and relation embeddings via $SO(2)$ Lie group rotations,
+enabling the system to answer not just \emph{what} but \emph{when}
+and \emph{how beliefs evolved} without dedicated temporal query logic.
+None of these modifications require retraining the underlying LLM;
+they operate on the memory layer itself.
+
 These geometric techniques are already proven in retrieval and KG
 reasoning. The open challenge is integrating them into persistent,
 cross-session memory architectures with evolving graphs.
 
 %%% ==================================================================
-\section{Open Challenges and Conclusion}
-\label{sec:agenda}
+\section{Discussion}
+\label{sec:discussion}
 %%% ==================================================================
 
-Graph-structured memory reframes the persistence problem. Instead of
+Graph-structured memory reframes the persistence problem: instead of
 compressing everything into the context window, store knowledge in a
-graph and retrieve selectively. Our survey shows
-this paradigm works with multi-strategy retrieval reaching top performances on
-long memory evaluation benchmarks, and graph memory equalizing even small models to near-frontier
-performance at significant lower cost. However, but several challenges
-remain. Current systems vary widely in graph types, node/edge
-semantics, and temporal models. Therefore, a unified ontology specifying how
-entities, events, temporal intervals, and higher-order groupings
-compose would enable interoperability and memory transplantation
-across architectures~\cite{transplants2026}. Graph algorithms
-dominate practice while GNN-based message passing remains limited to
-a handful of systems. Hence, whether learned structural representations can
-break the cognitive ceiling is an open
-question. Collaborative memory is largely unexplored, yet the same relational
-structure that enables rich retrieval also enables adversarial
+graph and retrieve selectively. Our survey shows this paradigm works,
+with multi-strategy retrieval reaching top performances on long memory
+evaluation benchmarks. Across independently reported results graph
+memory appears to disproportionately benefit smaller models, narrowing
+the gap to frontier performance at significantly lower cost.
+
+Futher, the convergence of evidence from geometric deep learning suggests that
+the structural limitations identified in our survey, i.e. cognitive
+accuracy ceilings, semantic collapse, temporal reasoning deficits, are
+not merely algorithmic shortcomings but consequences of a
+\emph{geometric mismatch} between the inherently non-flat topology of
+memory graphs and the Euclidean spaces in which they are embedded.
+This reframing shifts the research focus from better retrieval
+heuristics toward principled geometric foundations for memory
+architectures.
+
+In terms of practical implications of our survey, we find that several geometric techniques require no model retraining and can be
+integrated into existing systems as diagnostic or retrieval layers.
+Forman-Ricci curvature provides a bottleneck diagnostic
+applicable to any graph-memory system. Hyperbolic embeddings offer a
+drop-in replacement for Euclidean entity representations that
+preserves hierarchical separation as memory grows. Mixed-curvature
+product spaces accommodate the topological heterogeneity of real
+memory graphs without requiring a single global curvature choice.
+
+To this end, several challenges remain. Current systems vary widely in graph types,
+node/edge semantics, and temporal models. A unified ontology specifying
+how entities, events, temporal intervals, and higher-order groupings
+compose would enable interoperability and memory transplantation across
+architectures~\cite{transplants2026}. Graph algorithms dominate
+practice while GNN-based message passing remains limited to a handful
+of systems. However, whether learned structural representations can break the
+cognitive ceiling is an open question. Collaborative memory is largely
+unexplored, yet the same relational structure that enables rich
+retrieval also enables adversarial
 injection~\cite{minja2026,collabormem2025,damcs2025}. Memory quality
-deserves attention beyond downstream accuracy, i.e. diagnostic
-analysis~\cite{diagnosebottleneck2026} reveals that retrieval
-quality, not write-time sophistication, remains the primary bottleneck,
-and filtering low-frequency schema triples actually improves accuracy. Scalability
-is also a practical concern, with systems spanning wide latency
-ranges, and at lifetime scale, approximate retrieval, compression, and
+deserves attention beyond downstream accuracy: diagnostic
+analysis~\cite{diagnosebottleneck2026} reveals that retrieval quality,
+not write-time sophistication, remains the primary bottleneck, and
+filtering low-frequency schema triples actually improves accuracy.
+Scalability is a practical concern, with systems spanning wide latency
+ranges; at lifetime scale, approximate retrieval, compression, and
 asynchronous processing~\cite{comem2026} become critical. Finally,
-geometric retrieval techniques such as curvature diagnostics, hyperbolic
+geometric retrieval techniques, i.e. curvature diagnostics, hyperbolic
 embeddings, mixed-curvature manifolds, and continuous-time
-dynamics, are proven in retrieval and knowledge graph reasoning but await
-systematic integration into persistent, cross-session memory
-architectures. Addressing these challenges collectively would move
-the field from isolated retrieval components toward truly unified
-agent memory that is persistent, geometry-aware, and capable of the
-structured recall that cognitive continuity demands.
+dynamics, are proven in retrieval and knowledge graph reasoning but
+await systematic integration into persistent, cross-session memory
+architectures.
+
+Finally, we note that this work is a survey and conceptual synthesis, i.e. the proposed geometric
+extensions have not been empirically validated within agent memory
+systems. Our model-size equalizer analysis aggregates results across
+independently published benchmarks with different base models,
+datasets, and evaluation protocols, and controlled experiments are
+needed to confirm the observed trends. The survey scope is limited to
+2023--2026, which captures the current wave of graph-memory research
+but may miss relevant earlier work on persistent knowledge
+representations. Despite these limitations, the consistent alignment
+between the structural deficits identified in our survey and the
+capabilities demonstrated by geometric techniques in adjacent
+fields provides, in our view, a well-motivated foundation for the
+proposed research agenda.
+
+%%% ==================================================================
+\section{Conclusion}
+\label{sec:conclusion}
+%%% ==================================================================
+
+We surveyed graph-based memory architectures for LLM agents,
+identifying six architectural patterns, a retrieval spectrum from
+training-free graph algorithms to GNN message passing, and a
+persistent temporal grounding deficit across the field. Building on
+these findings, we argued that non-Euclidean geometric
+techniques, including discrete Ricci curvature, hyperbolic embeddings, Lie
+group manifolds, and mixed-curvature product spaces, are directly
+applicable to the structural limitations we identified, and
+illustrated this with a concrete enhancement scenario for
+bi-temporal memory systems. Integrating these geometric foundations
+into persistent, cross-session memory architectures is the defining
+open challenge, and addressing it would move the field toward truly
+unified agent memory capable of the structured recall that cognitive
+continuity demands.
 
 
 %%% ==================================================================
